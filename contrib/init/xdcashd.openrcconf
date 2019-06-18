@@ -1,0 +1,26 @@
+# /etc/conf.d/xdcashd: config file for /etc/init.d/xdcashd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/xdcash/xdcash.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/xdcashd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/xdcashd.pid"
+
+# Where to write xdcashd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/xdcashd"
+
+# User and group to own xdcashd process
+#BITCOIND_USER="xdcash"
+#BITCOIND_GROUP="xdcash"
+
+# Path to xdcashd executable
+#BITCOIND_BIN="/usr/bin/xdcashd"
+
+# Nice value to run xdcashd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

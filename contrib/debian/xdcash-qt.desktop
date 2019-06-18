@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=XdCash
+Comment=XdCash P2P Cryptocurrency
+Comment[fr]=XdCash, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=XdCash, eşten eşe kriptografik sanal para birimi
+Exec=xdcash-qt %u
+Terminal=false
+Type=Application
+Icon=xdcash128
+MimeType=x-scheme-handler/xdcash;
+Categories=Office;Finance;

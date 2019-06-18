@@ -1,0 +1,26 @@
+[Unit]
+Description=XdCash's distributed currency daemon
+After=network.target
+
+[Service]
+User=xdcash
+Group=xdcash
+
+Type=forking
+PIDFile=/var/lib/xdcashd/xdcashd.pid
+
+ExecStart=/usr/bin/xdcashd -daemon -pid=/var/lib/xdcashd/xdcashd.pid \
+          -conf=/etc/xdcash/xdcash.conf -datadir=/var/lib/xdcashd
+
+ExecStop=-/usr/bin/xdcash-cli -conf=/etc/xdcash/xdcash.conf \
+         -datadir=/var/lib/xdcashd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
