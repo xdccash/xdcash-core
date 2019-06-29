@@ -109,7 +109,7 @@ public:
         pchMessageStart[2] = 0x44;
         pchMessageStart[3] = 0x43;
         vAlertPubKey = ParseHex("0409c5cc66481422f29663e04e11e79e2faa1bcea4d808cd36280a3a4d1644548b91e3086bcb5158aacd24eacba15cf9ce570f2a2c67a40554e7293d6df2d9fb53");
-        nDefaultPort = 58120;
+        nDefaultPort = 30333;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // XdCash starting difficulty is 1 / 2^12
         nSubsidyHalvingInterval = 210000;
         nMaxReorganizationDepth = 100;
