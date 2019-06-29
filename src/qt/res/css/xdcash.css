@@ -881,12 +881,12 @@ QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScroll
 border:0;
 }
 
-/* About Xdcash Dialog */
-QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About Xdcash Contents */
+/* About XdCash Dialog */
+QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About XdCash Contents */
 margin-left:10px;
 }
 
-QDialog#AboutDialog QLabel#label_2 { /* Margin for About Xdcash text */
+QDialog#AboutDialog QLabel#label_2 { /* Margin for About XdCash text */
 margin-right:10px;
 }
 
@@ -917,7 +917,7 @@ background-image: url(':/images/xdcash_logo_horizontal');
 background-repeat: no-repeat;
 }
 
-QWidget .QFrame#frame_Header { /* Header with Page-Title and Xdcash-image */
+QWidget .QFrame#frame_Header { /* Header with Page-Title and XdCash-image */
 min-width:400px;
 background-color:#ffffff;
 }
@@ -1556,7 +1556,7 @@ QDialog#CoinControlDialog .CoinControlTreeWidget#treeWidget::indicator { /* Coin
 
 }
 
-QDialog#ZXdcashControlDialog .QTreeWidget#treeWidget { /* zXdcash Control Widget Container */
+QDialog#ZXdCashControlDialog .QTreeWidget#treeWidget { /* zXdCash Control Widget Container */
 outline:0;
 background-color:#ffffff;
 border:1px solid #333;

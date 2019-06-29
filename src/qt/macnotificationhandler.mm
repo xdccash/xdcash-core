@@ -15,7 +15,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"cash.xdc.Xdcash-Qt";
+        return @"cash.xdc.XdCash-Qt";
     } else {
         return [self __bundleIdentifier];
     }

@@ -36,7 +36,7 @@ enum NumConnections {
     CONNECTIONS_ALL = (CONNECTIONS_IN | CONNECTIONS_OUT),
 };
 
-/** Model for Xdcash network client. */
+/** Model for XdCash network client. */
 class ClientModel : public QObject
 {
     Q_OBJECT

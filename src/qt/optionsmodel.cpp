@@ -79,10 +79,10 @@ void OptionsModel::Init()
         settings.setValue("nZeromintPercentage", 10);
     nZeromintPercentage = settings.value("nZeromintPercentage").toLongLong();
 
-    if (!settings.contains("nAnonymizeXdcashAmount"))
-        settings.setValue("nAnonymizeXdcashAmount", 1000);
+    if (!settings.contains("nAnonymizeXdCashAmount"))
+        settings.setValue("nAnonymizeXdCashAmount", 1000);
 
-    nAnonymizeXdcashAmount = settings.value("nAnonymizeXdcashAmount").toLongLong();
+    nAnonymizeXdCashAmount = settings.value("nAnonymizeXdCashAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -151,8 +151,8 @@ void OptionsModel::Init()
         SoftSetArg("-zeromintpercentage", settings.value("nZeromintPercentage").toString().toStdString());
     if (settings.contains("nPreferredDenom"))
         SoftSetArg("-preferredDenom", settings.value("nPreferredDenom").toString().toStdString());
-    if (settings.contains("nAnonymizeXdcashAmount"))
-        SoftSetArg("-anonymizexdcashamount", settings.value("nAnonymizeXdcashAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeXdCashAmount"))
+        SoftSetArg("-anonymizexdcashamount", settings.value("nAnonymizeXdCashAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -234,8 +234,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return QVariant(nZeromintPercentage);
         case ZeromintPrefDenom:
             return QVariant(nPreferredDenom);
-        case AnonymizeXdcashAmount:
-            return QVariant(nAnonymizeXdcashAmount);
+        case AnonymizeXdCashAmount:
+            return QVariant(nAnonymizeXdCashAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -350,10 +350,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             emit preferredDenomChanged(nPreferredDenom);
             break;
 
-        case AnonymizeXdcashAmount:
-            nAnonymizeXdcashAmount = value.toInt();
-            settings.setValue("nAnonymizeXdcashAmount", nAnonymizeXdcashAmount);
-            emit anonymizeXdcashAmountChanged(nAnonymizeXdcashAmount);
+        case AnonymizeXdCashAmount:
+            nAnonymizeXdCashAmount = value.toInt();
+            settings.setValue("nAnonymizeXdCashAmount", nAnonymizeXdCashAmount);
+            emit anonymizeXdCashAmountChanged(nAnonymizeXdCashAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();
