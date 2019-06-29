@@ -2940,7 +2940,7 @@ Please check the address and try again.</source>
         <translation>Copyright (C) 2015-%i Разработчики PIVX Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The XDCASH Core Developers</source>
+        <source>Copyright (C) %i The XDCASH Core Developers</source>
         <translation>Copyright (C) 2017-%i Разработчики XDCASH Core</translation>
     </message>
     <message>

@@ -2625,7 +2625,7 @@ MultiSend: %1</translation>
         <translation>Copyright (C) 2015-%i The PIVX Core Ontwikkelaars</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The XDCASH Core Developers</source>
+        <source>Copyright (C) %i The XDCASH Core Developers</source>
         <translation>Copyright (C) 2017-%i The XDCASH Core Ontwikkelaars</translation>
     </message>
     <message>

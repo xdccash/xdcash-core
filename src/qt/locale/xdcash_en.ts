@@ -5378,7 +5378,7 @@ for example: alertnotify=echo %%s | mail -s &quot;XDCASH Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2017-%i The XDCASH Core Developers</source>
+        <source>Copyright (C) %i The XDCASH Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

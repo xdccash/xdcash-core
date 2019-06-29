@@ -3893,7 +3893,7 @@ rpcpassword=%s
         <translation>Copyright (C) 2015-%i The PIVX Core 개발자</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The XDCASH Core Developers</source>
+        <source>Copyright (C) %i The XDCASH Core Developers</source>
         <translation>Copyright (C) 2017-%i The XDCASH Core 개발자</translation>
     </message>
     <message>

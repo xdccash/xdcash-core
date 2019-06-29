@@ -3959,8 +3959,8 @@ for example: alertnotify=echo %%s | mail -s "XDCASH Alert" admin@foo.com
         <translation>Copyright (C) 2015-%i The PIVX Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2017-%i The XDCASH Core Developers</source>
-        <translation>Copyright (C) 2017-%i The XDCASH Core Developers</translation>
+        <source>Copyright (C) %i The XDCASH Core Developers</source>
+        <translation>Copyright (C) %i The XDCASH Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
