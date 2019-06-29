@@ -62,12 +62,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your XdCash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши XdCash-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <source>These are your XDCASH addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши XDCASH-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
-        <source>These are your XdCash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши XdCash-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <source>These are your XDCASH addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши XDCASH-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -132,10 +132,6 @@
         <translation>Повторить новую кодовую фразу</translation>
     </message>
     <message>
-        <source>For anonymization and staking only</source>
-        <translation>Только для анонимизации и хранения</translation>
-    </message>
-    <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Введите новый пароль к кошельку. &lt;br/&gt;Используйте при этом десять &lt;/b&gt;или болле случайных символов &lt;/b&gt;или восем и более слов.</translation>
     </message>
@@ -172,16 +168,16 @@
         <translation>Подтверждение шифрования кошелька</translation>
     </message>
     <message>
-        <source>XdCash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XdCashs from being stolen by malware infecting your computer.</source>
-        <translation>XdCash сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши XdCash от кражи с использованием вредоносного ПО.</translation>
+        <source>XDCASH will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDCASHs from being stolen by malware infecting your computer.</source>
+        <translation>XDCASH сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши XDCASH от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Вы действительно хотите зашифровать свой кошелек?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XdCash&lt;/b&gt;!</source>
-        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ XdCash&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XDCASH&lt;/b&gt;!</source>
+        <translation>Внимание: если вы зашифруете свой кошелёк и потеряете от него пароль, то вы &lt;b&gt;ПОТЕРЯЕТЕ ВСЕ СВОИ XDCASH&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,16 +231,16 @@
         <translation>&amp;BIP 38 Шифрование</translation>
     </message>
     <message>
-        <source>Enter a XdCash Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Введите XdCash адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
+        <source>Enter a XDCASH Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Введите XDCASH адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The XdCash address to sign the message with</source>
-        <translation>Адрес XdCash для подписи сообщения с помощью</translation>
+        <source>The XDCASH address to sign the message with</source>
+        <translation>Адрес XDCASH для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +271,8 @@
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XdCash address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес XdCash</translation>
+        <source>Sign the message to prove you own this XDCASH address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес XDCASH</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,12 +295,12 @@
         <translation>Введите зашифрованный с помощью BIP 38 секретный ключ. Введите секретную фразу в среднем окне. Нажмите Дешифровать Ключ чтобы создать секретный ключ. Нажав на Импортировать Адрес после дешифровки, вы добавите секретный ключ к кошельку.</translation>
     </message>
     <message>
-        <source>The XdCash address the message was signed with</source>
-        <translation>Адрес XdCash, которым подписано сообщение</translation>
+        <source>The XDCASH address the message was signed with</source>
+        <translation>Адрес XDCASH, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XdCash address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным XdCash адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified XDCASH address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным XDCASH адресом </translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -594,24 +590,16 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
-        <source>XdCash Core</source>
-        <translation>XdCash Core</translation>
+        <source>XDCASH Core</source>
+        <translation>XDCASH Core</translation>
     </message>
     <message>
-        <source>Send coins to a XdCash address</source>
-        <translation>Отправить монеты на XdCash адрес</translation>
+        <source>Send coins to a XDCASH address</source>
+        <translation>Отправить монеты на XDCASH адрес</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and xdcash: URIs)</source>
-        <translation>Запросить платежи (генерирует QR-код и XdCash: URI)</translation>
-    </message>
-    <message>
-        <source>&amp;Privacy</source>
-        <translation>&amp;Конфиденциальность</translation>
-    </message>
-    <message>
-        <source>Privacy Action for zXdCash and Obfuscation</source>
-        <translation>Конфиденциальное действие и обфускация</translation>
+        <translation>Запросить платежи (генерирует QR-код и xdcash: URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -622,24 +610,24 @@
         <translation>Обзор мастернод</translation>
     </message>
     <message>
-        <source>&amp;About XdCash Core</source>
-        <translation>&amp;О XdCash Core</translation>
+        <source>&amp;About XDCASH Core</source>
+        <translation>&amp;О XDCASH Core</translation>
     </message>
     <message>
-        <source>Show information about XdCash Core</source>
-        <translation>Показать информацию о XdCash Core</translation>
+        <source>Show information about XDCASH Core</source>
+        <translation>Показать информацию о XDCASH Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for XdCash</source>
-        <translation>Изменение параметров конфигурации XdCash</translation>
+        <source>Modify configuration options for XDCASH</source>
+        <translation>Изменение параметров конфигурации XDCASH</translation>
     </message>
     <message>
-        <source>Sign messages with your XdCash addresses to prove you own them</source>
-        <translation>Подписывайте сообщения вашими XdCash адресами, чтобы доказать, что вы их владелец</translation>
+        <source>Sign messages with your XDCASH addresses to prove you own them</source>
+        <translation>Подписывайте сообщения вашими XDCASH адресами, чтобы доказать, что вы их владелец</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified XdCash addresses</source>
-        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным XdCash адресом </translation>
+        <source>Verify messages to ensure they were signed with specified XDCASH addresses</source>
+        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным XDCASH адресом </translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -670,8 +658,8 @@
         <translation>Открыть файл настроек мастернод</translation>
     </message>
     <message>
-        <source>Open a XdCash: URI or payment request</source>
-        <translation>Открыть XdCash: URI или запрос платежа</translation>
+        <source>Open a xdcash: URI or payment request</source>
+        <translation>Открыть xdcash: URI или запрос платежа</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -682,12 +670,12 @@
         <translation>Окно обзора блока</translation>
     </message>
     <message>
-        <source>Show the XdCash Core help message to get a list with possible XdCash command-line options</source>
-        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды XdCash</translation>
+        <source>Show the XDCASH Core help message to get a list with possible XDCASH command-line options</source>
+        <translation>Смотрите помощь к программе, чтобы получить документацию ко всем возможным опциям комманды XDCASH</translation>
     </message>
     <message>
-        <source>XdCash Core client</source>
-        <translation>Клиент XdCash Core</translation>
+        <source>XDCASH Core client</source>
+        <translation>Клиент XDCASH Core</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -790,10 +778,6 @@ MultiSend: %1</translation>
         <translation>Кошелек &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;разблокирован&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization and staking only</source>
-        <translation>Кошелек &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;разблокирован&lt;/b&gt; для анонимизации и хранения.</translation>
-    </message>
-    <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Кошелек &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;заблокирован&lt;/b&gt;</translation>
     </message>
@@ -803,14 +787,6 @@ MultiSend: %1</translation>
     <message>
         <source>Blockchain Explorer</source>
         <translation>Обзор блокчейна</translation>
-    </message>
-    <message>
-        <source>Back</source>
-        <translation>Назад</translation>
-    </message>
-    <message>
-        <source>Forward</source>
-        <translation>вперед</translation>
     </message>
     <message>
         <source>Address / Block / Transaction</source>
@@ -831,6 +807,10 @@ MultiSend: %1</translation>
 </context>
 <context>
     <name>ClientModel</name>
+    <message>
+        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
+        <translation>Всего: %1 (OBF совместимые: %2 / Включеные: %3)</translation>
+    </message>
     <message>
         <source>Network Alert</source>
         <translation>Сетевое предупреждение</translation>
@@ -995,8 +975,8 @@ MultiSend: %1</translation>
         <translation>средне-высокий</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Может вариировать +/- %1 duff(s) к вводу</translation>
+        <source>Can vary +/- %1 uxdcash per input.</source>
+        <translation>Может вариировать +/- %1 uxdcash к вводу</translation>
     </message>
     <message>
         <source>medium</source>
@@ -1110,8 +1090,8 @@ MultiSend: %1</translation>
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid XdCash address.</source>
-        <translation>Введенный адрес "%1" не является XdCash адресом.</translation>
+        <source>The entered address "%1" is not a valid XDCASH address.</source>
+        <translation>Введенный адрес "%1" не является XDCASH адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1156,16 +1136,16 @@ MultiSend: %1</translation>
         <translation>версия</translation>
     </message>
     <message>
-        <source>XdCash Core</source>
-        <translation>XdCash Core</translation>
+        <source>XDCASH Core</source>
+        <translation>XDCASH Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About XdCash Core</source>
-        <translation>О XdCash Core</translation>
+        <source>About XDCASH Core</source>
+        <translation>О XDCASH Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1211,16 +1191,16 @@ MultiSend: %1</translation>
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to XdCash Core.</source>
-        <translation>Добро пожаловать в XdCash Core.</translation>
+        <source>Welcome to XDCASH Core.</source>
+        <translation>Добро пожаловать в XDCASH Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where XdCash Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные XdCash Core.</translation>
+        <source>As this is the first time the program is launched, you can choose where XDCASH Core will store its data.</source>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные XDCASH Core.</translation>
     </message>
     <message>
-        <source>XdCash Core will download and store a copy of the XdCash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>XdCash Core загрузит и сохранит копию цепочки блоков XdCash. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>XDCASH Core will download and store a copy of the XDCASH block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>XDCASH Core загрузит и сохранит копию цепочки блоков XDCASH. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1231,8 +1211,8 @@ MultiSend: %1</translation>
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>XdCash Core</source>
-        <translation>XdCash Core</translation>
+        <source>XDCASH Core</source>
+        <translation>XDCASH Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1373,12 +1353,12 @@ MultiSend: %1</translation>
         <translation>Введите адрес для отправки</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other XdCash addresses after it matures.
-To Add: enter percentage to give and XdCash address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other XDCASH addresses after it matures.
+To Add: enter percentage to give and XDCASH address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие XdCash адреса.
-Для добавления: введите передаваемый процент и XdCash адрес для добавления к вектору MultiSend.
+        <translation>MultiSend позволяет вам автоматически отправлять до 100% вознаграждения за мастерноды и хранение, после их созревания, на другие XDCASH адреса.
+Для добавления: введите передаваемый процент и XDCASH адрес для добавления к вектору MultiSend.
 Для удаления: введите удаляемый адрес и нажмите удалить.
 MultiSend будет неактивен до тех пор, пока вы не нажмете Включить</translation>
     </message>
@@ -1494,73 +1474,6 @@ Please check the address and try again.</source>
     </message>
 </context>
 <context>
-    <name>ObfuscationConfig</name>
-    <message>
-        <source>Configure Obfuscation</source>
-        <translation>Параметры Перемешивания</translation>
-    </message>
-    <message>
-        <source>Basic Privacy</source>
-        <translation>Базовая конфиденциальность</translation>
-    </message>
-    <message>
-        <source>High Privacy</source>
-        <translation>Повышенная конфиденциальность</translation>
-    </message>
-    <message>
-        <source>Maximum Privacy</source>
-        <translation>Максимальная конфиденциальность</translation>
-    </message>
-    <message>
-        <source>Please select a privacy level.</source>
-        <translation>Выберите уровень конфиденциальности.</translation>
-    </message>
-    <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XdCash</source>
-        <translation>Используйте 2 разные мастерноды для смешивания средств до 10000 XdCash</translation>
-    </message>
-    <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XdCash</source>
-        <translation>Используйте 8 разных мастернод для смешивания средств до 10000 XdCash</translation>
-    </message>
-    <message>
-        <source>Use 16 separate masternodes</source>
-        <translation>Используйте 16 разных мастернод</translation>
-    </message>
-    <message>
-        <source>This option is the quickest and will cost about ~0.025 XdCash to anonymize 10000 XdCash</source>
-        <translation>Этот вариант является самым быстрым и будет стоить порядка ~0.025 XdCash для анонимизации 10000 XdCash</translation>
-    </message>
-    <message>
-        <source>This option is moderately fast and will cost about 0.05 XdCash to anonymize 10000 XdCash</source>
-        <translation>Это средний по скорости вариант и он будет стоить около 0.05 XdCash для анонимизации 10000 XdCash</translation>
-    </message>
-    <message>
-        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Это самый медленный и безопасный вариант. Максимальная анонимность стоит</translation>
-    </message>
-    <message>
-        <source>0.1 XdCash per 10000 XdCash you anonymize.</source>
-        <translation>0.1 XdCash за 10000 XdCash которые вы собираетесь анонимизировать.</translation>
-    </message>
-    <message>
-        <source>Obfuscation Configuration</source>
-        <translation>Настройка Перемешивания</translation>
-    </message>
-    <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening XdCash's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на стандартные значения (%1 и 2 цикла). Вы в любой момент можете это изменить, открыв окно настройки XdCash.</translation>
-    </message>
-    <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening XdCash's configuration screen.</source>
-        <translation>Перемешивание было успешно выбрано как высокое (%1 и 8 циклов). Вы в любой момент можете это изменить, открыв окно настройки XdCash.</translation>
-    </message>
-    <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening XdCash's configuration screen.</source>
-        <translation>Перемешивание было успешно выставлено на максимальное (%1 и 16 циклов). Вы в любой момент можете это изменить, открыв окно настройки XdCash.</translation>
-    </message>
-</context>
-<context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
@@ -1618,8 +1531,8 @@ Please check the address and try again.</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the XdCash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт XdCash через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the XDCASH client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт XDCASH через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1638,12 +1551,12 @@ Please check the address and try again.</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start XdCash after logging in to the system.</source>
-        <translation>Автоматически запускать XdCash после входа в систему.</translation>
+        <source>Automatically start XDCASH after logging in to the system.</source>
+        <translation>Автоматически запускать XDCASH после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start XdCash on system login</source>
-        <translation>&amp;Запускать XdCash при входе в систему</translation>
+        <source>&amp;Start XDCASH on system login</source>
+        <translation>&amp;Запускать XDCASH при входе в систему</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1670,34 +1583,16 @@ Please check the address and try again.</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting XdCash.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска XdCash.</translation>
-    </message>
-    <message>
-        <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/xdcash-project/xdcash-project-translations</source>
-        <translation>Отсутствует ваш язык или заметили незавершенный перевод? Вы можете помочь нам стать лучше:
-https://www.transifex.com/xdcash-project/xdcash-project-translations</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting XDCASH.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска XDCASH.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Карта порта, использующего &amp;UPnP</translation>
     </message>
     <message>
-        <source>Percentage of incoming XdCash which get automatically converted to zXdCash via Zerocoin Protocol (min: 10%)</source>
-        <translation>Процент приходящих XdCash, которые автоматически конвертируются в zXdCash благодаря Zerocoin протоколу (min: 10%)</translation>
-    </message>
-    <message>
-        <source>Percentage of autominted zXdCash</source>
-        <translation>Процент  авточеканненых zXdCash</translation>
-    </message>
-    <message>
-        <source>Preferred Automint zXdCash Denomination</source>
-        <translation>Предпочитаемый номинал авточеканной  монеты  zXdCash</translation>
-    </message>
-    <message>
-        <source>Connect to the XdCash network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети XdCash через SOCKS5 прокси.</translation>
+        <source>Connect to the XDCASH network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети XDCASH через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1744,10 +1639,6 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>&amp;Язык Интерфейса</translation>
     </message>
     <message>
-        <source>User Interface Theme:</source>
-        <translation>Тема Интерфейса</translation>
-    </message>
-    <message>
         <source>&amp;Unit to show amounts in:</source>
         <translation>В каких единицах показывать сумму:</translation>
     </message>
@@ -1788,10 +1679,6 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>&amp;Отмена</translation>
     </message>
     <message>
-        <source>I don't care</source>
-        <translation>Мне не важно</translation>
-    </message>
-    <message>
         <source>default</source>
         <translation>по-умолчанию</translation>
     </message>
@@ -1827,10 +1714,6 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Вид</translation>
     </message>
     <message>
-        <source>XdCash Balances</source>
-        <translation>Баланс XdCash</translation>
-    </message>
-    <message>
         <source>Available:</source>
         <translation>Доступно:</translation>
     </message>
@@ -1855,8 +1738,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Награды за хранение и мастерноды, которые еще не *созрели*</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the XdCash network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью XdCash после установки соединения, но этот процесс еще не завершен. </translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the XDCASH network after a connection is established, but this process has not completed yet.</source>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью XDCASH после установки соединения, но этот процесс еще не завершен. </translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1891,22 +1774,6 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Расходуемый:</translation>
     </message>
     <message>
-        <source>XdCash:</source>
-        <translation>XdCash:</translation>
-    </message>
-    <message>
-        <source>zXdCash:</source>
-        <translation>zXdCash:</translation>
-    </message>
-    <message>
-        <source>0 %</source>
-        <translation>0 %</translation>
-    </message>
-    <message>
-        <source>Zerocoin Balance</source>
-        <translation>Баланс Zerocoin </translation>
-    </message>
-    <message>
         <source>Recent transactions</source>
         <translation>Последние транзакции</translation>
     </message>
@@ -1938,8 +1805,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Не удалось запустить xdcash: обработчик click-to-pay </translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid XdCash address or malformed URI parameters.</source>
-        <translation>URI не интерпретируется! Причиной этому может быть неверный XdCash адрес или неверные параметеры URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid XDCASH address or malformed URI parameters.</source>
+        <translation>URI не интерпретируется! Причиной этому может быть неверный XDCASH адрес или неверные параметеры URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2018,181 +1885,14 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
     </message>
 </context>
 <context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>XdCash which were anonymized via Zerocin Protocol</source>
-        <translation>XdCash, который был анонимно использован через Zerocoin протокол</translation>
-    </message>
-    <message>
-        <source>Zerocoin Actions:</source>
-        <translation>Действия Zerocoin </translation>
-    </message>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the XdCash network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью XdCash после установки соединения, но этот процесс еще не завершен. </translation>
-    </message>
-    <message>
-        <source>Enter an amount of Phr to convert to zPhr</source>
-        <translation>Введите сумму в Phr для  конвертации в zPhr</translation>
-    </message>
-    <message>
-        <source>Mint Zerocoin</source>
-        <translation>Создать Zerocoin</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Available for Minting:</source>
-        <translation>Доступный для чеканки</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Сброс</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Количество:</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Сумма:</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Выбрать ранее использованный адрес</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Вставить адрес из буфера обмена</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Available Zerocoin  Balance:</source>
-        <translation>Доступный Баланс в Zerocoin </translation>
-    </message>
-    <message>
-        <source>Denominations with value 1:</source>
-        <translation>Номинал со значением 1:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 1:</source>
-        <translation>Номинал со значением 1:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 5:</source>
-        <translation>Номинал со значением 5:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 5:</source>
-        <translation>Номинал со значением 5:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 10:</source>
-        <translation>Номинал со значением 10:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 10:</source>
-        <translation>Номинал со значением 10:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 50:</source>
-        <translation>Номинал со значением 50:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 50:</source>
-        <translation>Номинал со значением 50:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 100:</source>
-        <translation>Номинал со значением 100:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 100:</source>
-        <translation>Номинал со значением 100:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 500:</source>
-        <translation>Номинал со значением 500:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 500:</source>
-        <translation>Номинал со значением 500:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 1000:</source>
-        <translation>Номинал со значением 1000:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 1000:</source>
-        <translation>Номинал со значением 1000:</translation>
-    </message>
-    <message>
-        <source>Denominations with value 5000:</source>
-        <translation>Номинал со значением 5000:</translation>
-    </message>
-    <message>
-        <source>Denom. with value 5000:</source>
-        <translation>Номинал со значением 5000:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Приоритет:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Комиссия:</translation>
-    </message>
-    <message>
-        <source>Dust:</source>
-        <translation>Пыль:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>нет</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Байты:</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>промежуточный</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Изменить:</translation>
-    </message>
-    <message>
-        <source>out of sync</source>
-        <translation>несинронизировано</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>Копировать количество</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Копировать сумму</translation>
-    </message>
-    </context>
-<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a XdCash address (e.g. %1)</source>
-        <translation>Введите адрес XdCash (например %1)</translation>
+        <source>Enter a XDCASH address (e.g. %1)</source>
+        <translation>Введите адрес XDCASH (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2325,8 +2025,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the XdCash debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки XdCash. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <source>Open the XDCASH debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть протокол отладки XDCASH. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2486,8 +2186,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the XdCash RPC console.</source>
-        <translation>Добро пожаловать в окружение XdCash RPC.</translation>
+        <source>Welcome to the XDCASH RPC console.</source>
+        <translation>Добро пожаловать в окружение XDCASH RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2706,8 +2406,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Изменить:</translation>
     </message>
     <message>
-        <source>0 XdCash</source>
-        <translation>0 XdCash</translation>
+        <source>0 XDCASH</source>
+        <translation>0 XDCASH</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2786,8 +2486,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Копировать изменение</translation>
     </message>
     <message>
-        <source>Warning: Invalid XdCash address</source>
-        <translation>Предупреждение: неправильный XdCash адрес</translation>
+        <source>Warning: Invalid XDCASH address</source>
+        <translation>Предупреждение: неправильный XDCASH адрес</translation>
     </message>
     <message>
         <source>and SwiftTX</source>
@@ -2840,8 +2540,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>XdCash Core is shutting down...</source>
-        <translation>XdCash Core выключается...</translation>
+        <source>XDCASH Core is shutting down...</source>
+        <translation>XDCASH Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2851,8 +2551,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The XdCash address to sign the message with</source>
-        <translation>Адрес XdCash для подписи сообщения с помощью</translation>
+        <source>The XDCASH address to sign the message with</source>
+        <translation>Адрес XDCASH для подписи сообщения с помощью</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2875,16 +2575,16 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Копировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XdCash address</source>
-        <translation>Подпишите сообщение, чтобы подтвердить свой адрес XdCash</translation>
+        <source>Sign the message to prove you own this XDCASH address</source>
+        <translation>Подпишите сообщение, чтобы подтвердить свой адрес XDCASH</translation>
     </message>
     <message>
-        <source>The XdCash address the message was signed with</source>
-        <translation>Адрес XdCash, которым подписано сообщение</translation>
+        <source>The XDCASH address the message was signed with</source>
+        <translation>Адрес XDCASH, которым подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XdCash address</source>
-        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным XdCash адресом </translation>
+        <source>Verify the message to ensure it was signed with the specified XDCASH address</source>
+        <translation>Проверте сообщение, чтобы убедиться, что оно было подписано указанным XDCASH адресом </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -2930,8 +2630,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XdCash Core</source>
-        <translation>XdCash Core</translation>
+        <source>XDCASH Core</source>
+        <translation>XDCASH Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2946,8 +2646,12 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>The XdCash Core developers</source>
-        <translation>Разработчики XdCash Core</translation>
+        <source>The PIVX Core developers</source>
+        <translation>Разработчики PIVX Core</translation>
+    </message>
+    <message>
+        <source>The XDCASH Core developers</source>
+        <translation>Разработчики XDCASH Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3198,13 +2902,6 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
     </message>
     </context>
 <context>
-    <name>ZPhrControlDialog</name>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    </context>
-<context>
     <name>xdcash-core</name>
     <message>
         <source>SwiftTX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
@@ -3239,8 +2936,12 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Copyright (C) 2014-%i Разработчики Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The XdCash Core Developers</source>
-        <translation>Copyright (C) 2015-%i Разработчики XdCash Core</translation>
+        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
+        <translation>Copyright (C) 2015-%i Разработчики PIVX Core</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2017-%i The XDCASH Core Developers</source>
+        <translation>Copyright (C) 2017-%i Разработчики XDCASH Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3299,10 +3000,6 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Ошибка: произошла фатальная внутренняя ошибка, подробности см. В файле debug.log.</translation>
     </message>
     <message>
-        <source>Error: Can't select current denominated inputs</source>
-        <translation>Ошибка: невозможно выбрать текущие входы</translation>
-    </message>
-    <message>
         <source>Error: Disk space is low!</source>
         <translation>Ошибка. Недостаточно места на диске!</translation>
     </message>
@@ -3359,10 +3056,6 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Обнаружен неверный сценарий.</translation>
     </message>
     <message>
-        <source>Last successful Obfuscation action was too recent.</source>
-        <translation>Последняя успешная операция обфускации была совсем недавно.</translation>
-    </message>
-    <message>
         <source>Loading addresses...</source>
         <translation>Загрузка адресов ...</translation>
     </message>
@@ -3391,20 +3084,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Отсутствует входная информация о транзакции.</translation>
     </message>
     <message>
-        <source>Mixing in progress...</source>
-        <translation>Выполняется микширование ...</translation>
-    </message>
-    <message>
         <source>No Masternodes detected.</source>
         <translation>Мастерноды не найдены.</translation>
-    </message>
-    <message>
-        <source>No funds detected in need of denominating.</source>
-        <translation>Не обнаружено средств, требующих деноминации.</translation>
-    </message>
-    <message>
-        <source>No matching denominations found for mixing.</source>
-        <translation>Соответствующие наименования для смешивания не найдены.</translation>
     </message>
     <message>
         <source>Node relay options:</source>
@@ -3421,14 +3102,6 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
     <message>
         <source>Not enough file descriptors available.</source>
         <translation>Недостаточно доступных дескрипторов файлов.</translation>
-    </message>
-    <message>
-        <source>Obfuscation request complete:</source>
-        <translation>Запрос об обфускации завершен:</translation>
-    </message>
-    <message>
-        <source>Obfuscation request incomplete:</source>
-        <translation>Запрос об обфускации неполный:</translation>
     </message>
     <message>
         <source>Options:</source>
@@ -3515,7 +3188,7 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Это справочное сообщение</translation>
     </message>
     <message>
-        <source>This is experimental software.</source>
+        <source> </source>
         <translation>Это экспериментальное программное обеспечение.</translation>
     </message>
     <message>

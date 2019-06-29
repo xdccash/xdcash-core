@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your XdCash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços XdCash para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
+        <source>These are your XDCASH addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços XDCASH para enviar pagamentos. Sempre confira a quantidade e os endereços de destino antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your XdCash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços XdCash para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your XDCASH addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços XDCASH para receber pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -136,10 +136,6 @@
         <translation>Serve para desabilitar envio trivial de dinheiro quando a conta do SO for comprometida, mas não provê segurança real.</translation>
     </message>
     <message>
-        <source>For anonymization and staking only</source>
-        <translation>Apenas para anonimização e staking</translation>
-    </message>
-    <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Digite a nova senha para a carteira.&lt;br/&gt;Use uma senha com &lt;b&gt;10 ou mais caracteres aleatórios&lt;/b&gt;, ou &lt;b&gt;oito palavras ou mais&lt;/b&gt;.</translation>
     </message>
@@ -176,16 +172,16 @@
         <translation>Confirmar encriptação da carteira</translation>
     </message>
     <message>
-        <source>XdCash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XdCashs from being stolen by malware infecting your computer.</source>
-        <translation>XdCash encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas XdCashs contra roubo por malware infectando seu computador.</translation>
+        <source>XDCASH will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDCASHs from being stolen by malware infecting your computer.</source>
+        <translation>XDCASH encerrará para terminar o processo de encriptação. Lembre-se que encriptar sua carteira não protege completamente suas XDCASHs contra roubo por malware infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Tem certeza que deseja encriptar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XdCash&lt;/b&gt;!</source>
-        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA XdCash&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XDCASH&lt;/b&gt;!</source>
+        <translation>Atenção: Se você encriptar sua carteira e perder a senha, você &lt;B&gt;PERDERÁ TODA SUA XDCASH&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +235,16 @@
         <translation>Encriptar com &amp;BIP 38</translation>
     </message>
     <message>
-        <source>Enter a XdCash Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Digite um endereço XdCash que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
+        <source>Enter a XDCASH Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Digite um endereço XDCASH que você gostaria de criptografar usando BIP 38. Digite uma frase secreta na caixa do meio. Pressione criptografar para calcular a chave privada criptografada.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The XdCash address to sign the message with</source>
-        <translation>Um endereço XdCash para assinar a mensagem</translation>
+        <source>The XDCASH address to sign the message with</source>
+        <translation>Um endereço XDCASH para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +275,8 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XdCash address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço XdCash.</translation>
+        <source>Sign the message to prove you own this XDCASH address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço XDCASH.</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -299,8 +295,8 @@
         <translation>Criptografia BIP 38</translation>
     </message>
     <message>
-        <source>The XdCash address the message was signed with</source>
-        <translation>O endereço XdCash que foi assinado com</translation>
+        <source>The XDCASH address the message was signed with</source>
+        <translation>O endereço XDCASH que foi assinado com</translation>
     </message>
     <message>
         <source>Decrypted Key:</source>
@@ -434,9 +430,6 @@
     </message>
     </context>
 <context>
-    <name>ObfuscationConfig</name>
-    </context>
-<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -450,41 +443,6 @@
     </context>
 <context>
     <name>PeerTableModel</name>
-    </context>
-<context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>Amount:</source>
-        <translation>Quantidade:</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Escolha o endereço usado anteriormente.</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Cole o endereço da areá de trabalho. </translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioridade:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Taxa:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>não</translation>
-    </message>
     </context>
 <context>
     <name>QObject</name>
@@ -668,8 +626,8 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The XdCash address to sign the message with</source>
-        <translation>Um endereço XdCash para assinar a mensagem</translation>
+        <source>The XDCASH address to sign the message with</source>
+        <translation>Um endereço XDCASH para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -700,12 +658,12 @@
         <translation>Copiar a assinatura para a area de trabalho</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XdCash address</source>
-        <translation>Assinar a Mensagem para provar que você e dono desse endereço XdCash.</translation>
+        <source>Sign the message to prove you own this XDCASH address</source>
+        <translation>Assinar a Mensagem para provar que você e dono desse endereço XDCASH.</translation>
     </message>
     <message>
-        <source>The XdCash address the message was signed with</source>
-        <translation>O endereço XdCash que foi assinado com</translation>
+        <source>The XDCASH address the message was signed with</source>
+        <translation>O endereço XDCASH que foi assinado com</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -903,17 +861,14 @@
     </message>
     </context>
 <context>
-    <name>ZPhrControlDialog</name>
-    </context>
-<context>
     <name>xdcash-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes do blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all XdCash specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionacilidades específicas da XdCash (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, default %u)</translation>
+        <source>Disable all XDCASH specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionacilidades específicas da XDCASH (Masternodes, SwiftTX, Budgeting) (0-1, default %u)</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -921,7 +876,7 @@
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Opções de conexão:</translation>
+        <translation>Opções de cxdcashão:</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -968,20 +923,12 @@
         <translation>Nenhum Masternode compatível encontrado.</translation>
     </message>
     <message>
-        <source>Obfuscation request complete:</source>
-        <translation>Requisição de ofuscação completa:</translation>
-    </message>
-    <message>
-        <source>Obfuscation request incomplete:</source>
-        <translation>Requisição de ofuscação incompleta:</translation>
-    </message>
-    <message>
         <source>Options:</source>
         <translation>Opções:</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Senha para conexões JSON-RPC</translation>
+        <translation>Senha para cxdcashões JSON-RPC</translation>
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
@@ -1085,7 +1032,7 @@
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Especifique o tempo limite da conexão em milissegundos (mínimo: 1, padrão:%d)</translation>
+        <translation>Especifique o tempo limite da cxdcashão em milissegundos (mínimo: 1, padrão:%d)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -1164,7 +1111,7 @@
         <translation>Esta mensagem de ajuda</translation>
     </message>
     <message>
-        <source>This is experimental software.</source>
+        <source> </source>
         <translation>Este é um software experimental.</translation>
     </message>
     <message>
@@ -1233,7 +1180,7 @@
     </message>
     <message>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Use o OpenSSL(https) para conexões JSON-RPC</translation>
+        <translation>Use o OpenSSL(https) para cxdcashões JSON-RPC</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
@@ -1249,11 +1196,7 @@
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Nome de usuário para conexões JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Value more than Obfuscation pool maximum allows.</source>
-        <translation>Valor maior do que o máximo permitido pela pool.</translation>
+        <translation>Nome de usuário para cxdcashões JSON-RPC</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -1272,8 +1215,8 @@
         <translation>Carteira esta bloqueada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart XdCash Core to complete</source>
-        <translation>Carteira precisa ser reescrita: reinicie o XdCash Core para completar.</translation>
+        <source>Wallet needed to be rewritten: restart XDCASH Core to complete</source>
+        <translation>Carteira precisa ser reescrita: reinicie o XDCASH Core para completar.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

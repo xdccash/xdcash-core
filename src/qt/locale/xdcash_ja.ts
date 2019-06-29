@@ -162,9 +162,6 @@
     </message>
     </context>
 <context>
-    <name>ObfuscationConfig</name>
-    </context>
-<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -178,9 +175,6 @@
     </context>
 <context>
     <name>PeerTableModel</name>
-    </context>
-<context>
-    <name>PrivacyDialog</name>
     </context>
 <context>
     <name>QObject</name>
@@ -261,9 +255,6 @@
         <source>&amp;Export</source>
         <translation>＆エクスポート</translation>
     </message>
-    </context>
-<context>
-    <name>ZPhrControlDialog</name>
     </context>
 <context>
     <name>xdcash-core</name>

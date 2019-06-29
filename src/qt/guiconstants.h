@@ -13,7 +13,7 @@ static const int MODEL_UPDATE_DELAY = 250;
 /* AskPassphraseDialog -- Maximum passphrase length */
 static const int MAX_PASSXDCASHASE_SIZE = 1024;
 
-/* XdCash GUI -- Size of icons in status bar */
+/* Xdcash GUI -- Size of icons in status bar */
 static const int STATUSBAR_ICONSIZE = 16;
 
 static const bool DEFAULT_SPLASHSCREEN = true;
@@ -48,9 +48,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 35
 
-#define QAPP_ORG_NAME "XdCash"
+#define QAPP_ORG_NAME "Xdcash"
 #define QAPP_ORG_DOMAIN "xdcash.org"
-#define QAPP_APP_NAME_DEFAULT "XdCash-Qt"
-#define QAPP_APP_NAME_TESTNET "XdCash-Qt-testnet"
+#define QAPP_APP_NAME_DEFAULT "Xdcash-Qt"
+#define QAPP_APP_NAME_TESTNET "Xdcash-Qt-testnet"
 
 #endif // BITCOIN_QT_GUICONSTANTS_H

@@ -62,12 +62,12 @@
         <translation>Prijímacia adresa</translation>
     </message>
     <message>
-        <source>These are your XdCash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú vaše XdCash adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
+        <source>These are your XDCASH addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú vaše XDCASH adresy na odosielanie platieb. Pred odoslaním vždy skontrolujte výšku a adresu prijemcu.</translation>
     </message>
     <message>
-        <source>These are your XdCash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú vaše XdCash adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
+        <source>These are your XDCASH addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú vaše XDCASH adresy na prijímanie platieb. Pre každú transakciu sa odporúča použiť novú prijímaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -136,10 +136,6 @@
         <translation>Slúži na zakázanie obyčajného odoslania peňazí, v prípade, že bol OS účet kompromitovaný. Neposkytuje žiadnu skutočnú bezpečnosť.</translation>
     </message>
     <message>
-        <source>For anonymization and staking only</source>
-        <translation>Len pre anonymizáciu a staking</translation>
-    </message>
-    <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Zadajte novú prístupovú frázu do peňaženky. &lt;br/&gt; Použite prístupovú frázu &lt;b&gt;, ktorá má desať alebo viac náhodných znakov &lt;/ b&gt; alebo &lt;b&gt; osem alebo viac slov &lt;/ b&gt;.</translation>
     </message>
@@ -176,16 +172,16 @@
         <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
-        <source>XdCash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XdCashs from being stolen by malware infecting your computer.</source>
-        <translation>XdCash sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše XdCash pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
+        <source>XDCASH will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDCASHs from being stolen by malware infecting your computer.</source>
+        <translation>XDCASH sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že šifrovanie peňaženky nemôže úplne ochrániť vaše XDCASH pred odcudzením škodlivým softvérom, ktorý infikuje váš počítač.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Naozaj chcete zašifrovať svoju peňaženku?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XdCash&lt;/b&gt;!</source>
-        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY XdCash &lt;/ b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XDCASH&lt;/b&gt;!</source>
+        <translation>Upozornenie: Ak zašifrujete svoju peňaženku a stratíte svoju prístupovú frázu, &lt;b&gt; PRÍDETE O VŠETKY XDCASH &lt;/ b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +235,16 @@
         <translation>BIP 38 Šifrovanie</translation>
     </message>
     <message>
-        <source>Enter a XdCash Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadajte adresu XdCash, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
+        <source>Enter a XDCASH Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadajte adresu XDCASH, ktorú chcete zašifrovať pomocou BIP 38. Zadajte prístupovú frázu do stredného poľa. Stlačte šifrovanie na výpočet šifrovaného privátneho kľúča.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The XdCash address to sign the message with</source>
-        <translation>Adresa XdCash, ktorou chcete správu podpísať</translation>
+        <source>The XDCASH address to sign the message with</source>
+        <translation>Adresa XDCASH, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +275,8 @@
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XdCash address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto XdCash adresy</translation>
+        <source>Sign the message to prove you own this XDCASH address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto XDCASH adresy</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +299,12 @@
         <translation>Zadajte súkromný kľúč zašifrovaný BIP 38. Zadajte prístupovú frázu do stredného poľa. Kliknite na Dešifrovať kľúč, ak chcete vypočítať privátny kľúč. Po dešifrovaní kľúča pridáte do peňaženky tento súkromný kľúč kliknutím na položku 'Importovať adresu'.</translation>
     </message>
     <message>
-        <source>The XdCash address the message was signed with</source>
-        <translation>XdCash adresa, ktorou bola správa podpísaná</translation>
+        <source>The XDCASH address the message was signed with</source>
+        <translation>XDCASH adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XdCash address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou XdCash adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified XDCASH address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou XDCASH adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -598,12 +594,12 @@
         <translation>Panel nástrojov Záložky</translation>
     </message>
     <message>
-        <source>XdCash Core</source>
-        <translation>XdCash Core</translation>
+        <source>XDCASH Core</source>
+        <translation>XDCASH Core</translation>
     </message>
     <message>
-        <source>Send coins to a XdCash address</source>
-        <translation>Odoslať mince na adresu XdCash</translation>
+        <source>Send coins to a XDCASH address</source>
+        <translation>Odoslať mince na adresu XDCASH</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and xdcash: URIs)</source>
@@ -618,24 +614,24 @@
         <translation>Prezrieť masternody</translation>
     </message>
     <message>
-        <source>&amp;About XdCash Core</source>
-        <translation>O XdCash Core</translation>
+        <source>&amp;About XDCASH Core</source>
+        <translation>O XDCASH Core</translation>
     </message>
     <message>
-        <source>Show information about XdCash Core</source>
-        <translation>Zobraziť informácie o XdCash Core</translation>
+        <source>Show information about XDCASH Core</source>
+        <translation>Zobraziť informácie o XDCASH Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for XdCash</source>
-        <translation>Zmeňte možnosti konfigurácie pre XdCash</translation>
+        <source>Modify configuration options for XDCASH</source>
+        <translation>Zmeňte možnosti konfigurácie pre XDCASH</translation>
     </message>
     <message>
-        <source>Sign messages with your XdCash addresses to prove you own them</source>
-        <translation>Podpíšte správy pomocou adresy XdCash, aby ste preukázali, že ich vlastníte</translation>
+        <source>Sign messages with your XDCASH addresses to prove you own them</source>
+        <translation>Podpíšte správy pomocou adresy XDCASH, aby ste preukázali, že ich vlastníte</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified XdCash addresses</source>
-        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými XdCash adresami</translation>
+        <source>Verify messages to ensure they were signed with specified XDCASH addresses</source>
+        <translation>Overte správy, aby sa zabezpečilo, že boli podpísané zadanými XDCASH adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -666,8 +662,8 @@
         <translation>Otvoriť konfiguračný súbor masternodu</translation>
     </message>
     <message>
-        <source>Open a XdCash: URI or payment request</source>
-        <translation>Otvorte XdCash: URI alebo žiadosť o platbu</translation>
+        <source>Open a xdcash: URI or payment request</source>
+        <translation>Otvorte xdcash: URI alebo žiadosť o platbu</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -678,12 +674,12 @@
         <translation>Okno blockchain prehliadača</translation>
     </message>
     <message>
-        <source>Show the XdCash Core help message to get a list with possible XdCash command-line options</source>
-        <translation>Zobraziť pomocnú správu programu XdCash Core a získajte zoznam možností príkazového riadka XdCash</translation>
+        <source>Show the XDCASH Core help message to get a list with possible XDCASH command-line options</source>
+        <translation>Zobraziť pomocnú správu programu XDCASH Core a získajte zoznam možností príkazového riadka XDCASH</translation>
     </message>
     <message>
-        <source>XdCash Core client</source>
-        <translation>XdCash Core klient</translation>
+        <source>XDCASH Core client</source>
+        <translation>XDCASH Core klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -786,10 +782,6 @@ MultiSend: %1</translation>
         <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/ b&gt; a momentálne je &lt;b&gt;odomknutá&lt;/ b&gt;</translation>
     </message>
     <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization and staking only</source>
-        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/ b&gt; a momentálne &lt;b&gt;odomknutá&lt;/ b&gt; iba na anonymizáciu a staking</translation>
-    </message>
-    <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/ b&gt; a momentálne je &lt;b&gt;zamknutá&lt;/ b&gt;</translation>
     </message>
@@ -819,6 +811,10 @@ MultiSend: %1</translation>
 </context>
 <context>
     <name>ClientModel</name>
+    <message>
+        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
+        <translation>Sumár: %1 (OBF kompatibilné: %2 / Zapnuté: %3)</translation>
+    </message>
     <message>
         <source>Network Alert</source>
         <translation>Upozornenie siete </translation>
@@ -904,15 +900,15 @@ MultiSend: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>XdCash Core</source>
-        <translation>XdCash Core</translation>
+        <source>XDCASH Core</source>
+        <translation>XDCASH Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>XdCash Core</source>
-        <translation>XdCash Core</translation>
+        <source>XDCASH Core</source>
+        <translation>XDCASH Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -942,9 +938,6 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>ObfuscationConfig</name>
-    </context>
-<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -958,53 +951,6 @@ MultiSend: %1</translation>
     </context>
 <context>
     <name>PeerTableModel</name>
-    </context>
-<context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>Quantity:</source>
-        <translation>Množstvo:</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Suma:</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Vyberte predtým použitú adresu</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Vložte adresu zo schránky</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Priorita:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Poplatok:</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Bytov:</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Zmena:</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Skopírovať sumu</translation>
-    </message>
     </context>
 <context>
     <name>QObject</name>
@@ -1136,8 +1082,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The XdCash address to sign the message with</source>
-        <translation>Adresa XdCash, ktorou chcete správu podpísať</translation>
+        <source>The XDCASH address to sign the message with</source>
+        <translation>Adresa XDCASH, ktorou chcete správu podpísať</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1160,16 +1106,16 @@ MultiSend: %1</translation>
         <translation>Skopírujte aktuálny podpis do schránky</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XdCash address</source>
-        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto XdCash adresy</translation>
+        <source>Sign the message to prove you own this XDCASH address</source>
+        <translation>Podpíšte správu, aby ste preukázali, že ste vlastníkom tejto XDCASH adresy</translation>
     </message>
     <message>
-        <source>The XdCash address the message was signed with</source>
-        <translation>XdCash adresa, ktorou bola správa podpísaná</translation>
+        <source>The XDCASH address the message was signed with</source>
+        <translation>XDCASH adresa, ktorou bola správa podpísaná</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XdCash address</source>
-        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou XdCash adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified XDCASH address</source>
+        <translation>Skontrolujte správu, aby ste sa uistili, že bola podpísaná zadanou XDCASH adresou</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1207,8 +1153,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XdCash Core</source>
-        <translation>XdCash Core</translation>
+        <source>XDCASH Core</source>
+        <translation>XDCASH Core</translation>
     </message>
     </context>
 <context>
@@ -1301,9 +1247,6 @@ MultiSend: %1</translation>
         <source>Export the data in the current tab to a file</source>
         <translation>Exportovať údaje na aktuálnej karte do súboru</translation>
     </message>
-    </context>
-<context>
-    <name>ZPhrControlDialog</name>
     </context>
 <context>
     <name>xdcash-core</name>

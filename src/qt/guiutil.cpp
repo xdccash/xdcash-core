@@ -110,7 +110,7 @@ void setupAddressWidget(QValidatedLineEdit* widget, QWidget* parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a XdCash address (e.g. %1)").arg("TTh3VPSJA1zsit4sHqVVn92ARKDuM3xjTC"));
+    widget->setPlaceholderText(QObject::tr("Enter a Xdcash address (e.g. %1)").arg("TTh3VPSJA1zsit4sHqVVn92ARKDuM3xjTC"));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -127,7 +127,7 @@ void setupAmountWidget(QLineEdit* widget, QWidget* parent)
 
 bool parseBitcoinURI(const QUrl& uri, SendCoinsRecipient* out)
 {
-    // return if URI is not valid or is no XdCash: URI
+    // return if URI is not valid or is no Xdcash: URI
     if (!uri.isValid() || uri.scheme() != QString(URI_SCHEME))
         return false;
 
@@ -581,12 +581,12 @@ bool DHMSTableWidgetItem::operator<(QTableWidgetItem const& item) const
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "XdCash.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "Xdcash.lnk";
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for XdCash.lnk
+    // check for Xdcash.lnk
     return boost::filesystem::exists(StartupShortcutPath());
 }
 
@@ -699,7 +699,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a xdcash.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=XdCash\n";
+        optionFile << "Name=Xdcash\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

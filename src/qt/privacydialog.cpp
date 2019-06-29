@@ -66,7 +66,7 @@ PrivacyDialog::PrivacyDialog(QWidget* parent) : QDialog(parent),
     ui->labelzDenom7Text->setText("Denom. with value <b>1000</b>:");
     ui->labelzDenom8Text->setText("Denom. with value <b>5000</b>:");
 
-    // XdCash settings
+    // Xdcash settings
     QSettings settings;
     if (!settings.contains("nSecurityLevel")){
         nSecurityLevel = 42;
@@ -281,16 +281,16 @@ void PrivacyDialog::on_pushButtonSpendzXDCASH_clicked()
     sendzXDCASH();
 }
 
-void PrivacyDialog::on_pushButtonZXdCashControl_clicked()
+void PrivacyDialog::on_pushButtonZXdcashControl_clicked()
 {
-    ZXdCashControlDialog* zXdCashControl = new ZXdCashControlDialog(this);
-    zXdCashControl->setModel(walletModel);
-    zXdCashControl->exec();
+    ZXdcashControlDialog* zXdcashControl = new ZXdcashControlDialog(this);
+    zXdcashControl->setModel(walletModel);
+    zXdcashControl->exec();
 }
 
-void PrivacyDialog::setZXdCashControlLabels(int64_t nAmount, int nQuantity)
+void PrivacyDialog::setZXdcashControlLabels(int64_t nAmount, int nQuantity)
 {
-    ui->labelzXdCashSelected_int->setText(QString::number(nAmount));
+    ui->labelzXdcashSelected_int->setText(QString::number(nAmount));
     ui->labelQuantitySelected_int->setText(QString::number(nQuantity));
 }
 
@@ -310,7 +310,7 @@ void PrivacyDialog::sendzXDCASH()
     }
     else{
         if (!address.IsValid()) {
-            QMessageBox::warning(this, tr("Spend Zerocoin"), tr("Invalid XdCash Address"), QMessageBox::Ok, QMessageBox::Ok);
+            QMessageBox::warning(this, tr("Spend Zerocoin"), tr("Invalid Xdcash Address"), QMessageBox::Ok, QMessageBox::Ok);
             ui->payTo->setFocus();
             return;
         }
@@ -396,10 +396,10 @@ void PrivacyDialog::sendzXDCASH()
     ui->TEMintStatus->setPlainText(tr("Spending Zerocoin.\nComputationally expensive, might need several minutes depending on the selected Security Level and your hardware. \nPlease be patient..."));
     ui->TEMintStatus->repaint();
 
-    // use mints from zXdCash selector if applicable
+    // use mints from zXdcash selector if applicable
     vector<CZerocoinMint> vMintsSelected;
-    if (!ZXdCashControlDialog::listSelectedMints.empty()) {
-        vMintsSelected = ZXdCashControlDialog::GetSelectedMints();
+    if (!ZXdcashControlDialog::listSelectedMints.empty()) {
+        vMintsSelected = ZXdcashControlDialog::GetSelectedMints();
     }
 
     // Spend zXDCASH
@@ -435,14 +435,14 @@ void PrivacyDialog::sendzXDCASH()
     }
 
     // Clear zxdcash selector in case it was used
-    ZXdCashControlDialog::listSelectedMints.clear();
+    ZXdcashControlDialog::listSelectedMints.clear();
 
     // Some statistics for entertainment
     QString strStats = "";
     CAmount nValueIn = 0;
     int nCount = 0;
     for (CZerocoinSpend spend : receipt.GetSpends()) {
-        strStats += tr("zXdCash Spend #: ") + QString::number(nCount) + ", ";
+        strStats += tr("zXdcash Spend #: ") + QString::number(nCount) + ", ";
         strStats += tr("denomination: ") + QString::number(spend.GetDenomination()) + ", ";
         strStats += tr("serial: ") + spend.GetSerial().ToString().c_str() + "\n";
         strStats += tr("Spend is 1 of : ") + QString::number(spend.GetMintCount()) + " mints in the accumulator\n";
@@ -451,13 +451,13 @@ void PrivacyDialog::sendzXDCASH()
 
     CAmount nValueOut = 0;
     for (const CTxOut& txout: wtxNew.vout) {
-        strStats += tr("value out: ") + FormatMoney(txout.nValue).c_str() + " XdCash, ";
+        strStats += tr("value out: ") + FormatMoney(txout.nValue).c_str() + " Xdcash, ";
         nValueOut += txout.nValue;
 
         strStats += tr("address: ");
         CTxDestination dest;
         if(txout.scriptPubKey.IsZerocoinMint())
-            strStats += tr("zXdCash Mint");
+            strStats += tr("zXdcash Mint");
         else if(ExtractDestination(txout.scriptPubKey, dest))
             strStats += tr(CBitcoinAddress(dest).ToString().c_str());
         strStats += "\n";

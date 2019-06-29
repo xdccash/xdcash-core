@@ -93,7 +93,7 @@
                <item>
                 <widget class="QLabel" name="labelzXDCASHSyncStatus">
                  <property name="toolTip">
-                  <string>The displayed information may be out of date. Your wallet automatically synchronizes with the XdCash network after a connection is established, but this process has not completed yet.</string>
+                  <string>The displayed information may be out of date. Your wallet automatically synchronizes with the Xdcash network after a connection is established, but this process has not completed yet.</string>
                  </property>
                  <property name="styleSheet">
                   <string notr="true">QLabel { color: red; }</string>
@@ -145,7 +145,7 @@
                   </size>
                  </property>
                  <property name="toolTip">
-                  <string>Enter an amount of XdCash to convert (mint) to zXdCash</string>
+                  <string>Enter an amount of Xdcash to convert (mint) to zXdcash</string>
                  </property>
                  <property name="text">
                   <string>Convert XDCASH to zXDCASH</string>
@@ -178,7 +178,7 @@
                <item>
                 <widget class="QLabel" name="labelzXDCASHAmountText">
                  <property name="toolTip">
-                  <string>Available Balance are coins (XdCash) which are confirmed and not locked or Masternode collaterals.</string>
+                  <string>Available Balance are coins (Xdcash) which are confirmed and not locked or Masternode collaterals.</string>
                  </property>
                  <property name="text">
                   <string>Available Balance:</string>
@@ -191,7 +191,7 @@
                <item>
                 <widget class="QLabel" name="labelzXDCASHAmountValue">
                  <property name="toolTip">
-                  <string>Enter an amount of XdCash to convert to zXdCash</string>
+                  <string>Enter an amount of Xdcash to convert to zXdcash</string>
                  </property>
                  <property name="text">
                   <string>0.000 000 00 XDCASH</string>
@@ -223,7 +223,7 @@
                   </size>
                  </property>
                  <property name="toolTip">
-                  <string>Reset Zerocoin (zXdCash) Wallet DB. Deletes transactions that did not make it into the blockchain.</string>
+                  <string>Reset Zerocoin (zXdcash) Wallet DB. Deletes transactions that did not make it into the blockchain.</string>
                  </property>
                  <property name="text">
                   <string>Reset</string>
@@ -474,21 +474,21 @@
                 <number>0</number>
                </property>
                <item>
-                <widget class="QPushButton" name="pushButtonZXdCashControl">
+                <widget class="QPushButton" name="pushButtonZXdcashControl">
                  <property name="text">
-                  <string>zXdCash Control</string>
+                  <string>zXdcash Control</string>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QLabel" name="labelzXdCashSelected">
+                <widget class="QLabel" name="labelzXdcashSelected">
                  <property name="text">
-                  <string>zXdCash Selected:</string>
+                  <string>zXdcash Selected:</string>
                  </property>
                 </widget>
                </item>
                <item>
-                <widget class="QLabel" name="labelzXdCashSelected_int">
+                <widget class="QLabel" name="labelzXdcashSelected_int">
                  <property name="text">
                   <string>0</string>
                  </property>
@@ -607,7 +607,7 @@ zXDCASH are mature when they have more than 20 confirmations AND more than 1 min
                <item>
                 <widget class="QLabel" name="labelSecurityLevel">
                  <property name="toolTip">
-                  <string>Security Level for Zerocoin (zXdCash) Transactions. More is better, but needs more time and resources.</string>
+                  <string>Security Level for Zerocoin (zXdcash) Transactions. More is better, but needs more time and resources.</string>
                  </property>
                  <property name="frameShape">
                   <enum>QFrame::Box</enum>
@@ -695,7 +695,7 @@ zXDCASH are mature when they have more than 20 confirmations AND more than 1 min
                     </size>
                    </property>
                    <property name="toolTip">
-                    <string>The XdCash address to send the payment to. Creates local payment to yourself when empty.</string>
+                    <string>The Xdcash address to send the payment to. Creates local payment to yourself when empty.</string>
                    </property>
                   </widget>
                  </item>
@@ -895,7 +895,7 @@ zXDCASH are mature when they have more than 20 confirmations AND more than 1 min
                   </font>
                  </property>
                  <property name="toolTip">
-                  <string>Information about the available zXdCash funds.</string>
+                  <string>Information about the available zXdcash funds.</string>
                  </property>
                  <property name="text">
                   <string>zXDCASH Stats:</string>

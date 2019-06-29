@@ -39,16 +39,13 @@ public:
         Digits,              // QString
         Theme,               // QString
         Language,            // QString
-
-     //   HideOrphans, //bool
-
         CoinControlFeatures, // bool
         ThreadsScriptVerif,  // int
         DatabaseCache,       // int
         SpendZeroConfChange, // bool
         ZeromintPercentage,  // int
         ZeromintPrefDenom,   // int
-        AnonymizeXdCashAmount, //int
+        AnonymizeXdcashAmount, //int
         ShowMasternodesTab,  // bool
         Listen,              // bool
         OptionIDRowCount,
@@ -95,7 +92,7 @@ signals:
     void displayUnitChanged(int unit);
     void zeromintPercentageChanged(int);
     void preferredDenomChanged(int);
-    void anonymizeXdCashAmountChanged(int);
+    void anonymizeXdcashAmountChanged(int);
     void coinControlFeaturesChanged(bool);
 };
 

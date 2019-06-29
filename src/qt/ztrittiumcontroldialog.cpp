@@ -1,5 +1,5 @@
 // Copyright (c) 2017 The PIVX developers
-// Copyright (c) 2018-2019 The XdCash developers
+// Copyright (c) 2017-2018 The Xdcash developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -11,12 +11,12 @@
 
 using namespace std;
 
-std::list<std::string> ZXdCashControlDialog::listSelectedMints;
-std::list<CZerocoinMint> ZXdCashControlDialog::listMints;
+std::list<std::string> ZXdcashControlDialog::listSelectedMints;
+std::list<CZerocoinMint> ZXdcashControlDialog::listMints;
 
-ZXdCashControlDialog::ZXdCashControlDialog(QWidget *parent) :
+ZXdcashControlDialog::ZXdcashControlDialog(QWidget *parent) :
     QDialog(parent),
-    ui(new Ui::ZXdCashControlDialog),
+    ui(new Ui::ZXdcashControlDialog),
     model(0)
 {
     ui->setupUi(this);
@@ -30,19 +30,19 @@ ZXdCashControlDialog::ZXdCashControlDialog(QWidget *parent) :
     connect(ui->pushButtonAll, SIGNAL(clicked()), this, SLOT(ButtonAllClicked()));
 }
 
-ZXdCashControlDialog::~ZXdCashControlDialog()
+ZXdcashControlDialog::~ZXdcashControlDialog()
 {
     delete ui;
 }
 
-void ZXdCashControlDialog::setModel(WalletModel *model)
+void ZXdcashControlDialog::setModel(WalletModel *model)
 {
     this->model = model;
     updateList();
 }
 
 //Update the tree widget
-void ZXdCashControlDialog::updateList()
+void ZXdcashControlDialog::updateList()
 {
     // need to prevent the slot from being called each time something is changed
     ui->treeWidget->blockSignals(true);
@@ -134,7 +134,7 @@ void ZXdCashControlDialog::updateList()
 }
 
 // Update the list when a checkbox is clicked
-void ZXdCashControlDialog::updateSelection(QTreeWidgetItem* item, int column)
+void ZXdcashControlDialog::updateSelection(QTreeWidgetItem* item, int column)
 {
     // only want updates from non top level items that are available to spend
     if (item->parent() && column == COLUMN_CHECKBOX && !item->isDisabled()){
@@ -157,7 +157,7 @@ void ZXdCashControlDialog::updateSelection(QTreeWidgetItem* item, int column)
 }
 
 // Update the Quantity and Amount display
-void ZXdCashControlDialog::updateLabels()
+void ZXdcashControlDialog::updateLabels()
 {
     int64_t nAmount = 0;
     for (const CZerocoinMint mint : listMints) {
@@ -167,14 +167,14 @@ void ZXdCashControlDialog::updateLabels()
     }
 
     //update this dialog's labels
-    ui->labelZXdCash_int->setText(QString::number(nAmount));
+    ui->labelZXdcash_int->setText(QString::number(nAmount));
     ui->labelQuantity_int->setText(QString::number(listSelectedMints.size()));
 
     //update PrivacyDialog labels
-    privacyDialog->setZXdCashControlLabels(nAmount, listSelectedMints.size());
+    privacyDialog->setZXdcashControlLabels(nAmount, listSelectedMints.size());
 }
 
-std::vector<CZerocoinMint> ZXdCashControlDialog::GetSelectedMints()
+std::vector<CZerocoinMint> ZXdcashControlDialog::GetSelectedMints()
 {
     std::vector<CZerocoinMint> listReturn;
     for (const CZerocoinMint mint : listMints) {
@@ -187,7 +187,7 @@ std::vector<CZerocoinMint> ZXdCashControlDialog::GetSelectedMints()
 }
 
 // select or deselect all of the mints
-void ZXdCashControlDialog::ButtonAllClicked()
+void ZXdcashControlDialog::ButtonAllClicked()
 {
     ui->treeWidget->blockSignals(true);
     Qt::CheckState state = Qt::Checked;

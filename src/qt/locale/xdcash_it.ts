@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your XdCash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono gli indirizzi XdCash per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
+        <source>These are your XDCASH addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono gli indirizzi XDCASH per l'invio di pagamenti. Controlla sempre l'importo e l'indirizzo di ricezione prima di inviare valuta.</translation>
     </message>
     <message>
-        <source>These are your XdCash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono gli indirizzi XdCash per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
+        <source>These are your XDCASH addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono gli indirizzi XDCASH per la ricezione di pagamenti. Si raccomanda di utilizzare un indirizzo diverso per ogni transazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -136,10 +136,6 @@
         <translation>Serve per impedire invii accidentali nel caso in cui l'utenza del sistema operativo sia stata compromessa. Non garantisce alcuna reale sicurezza.</translation>
     </message>
     <message>
-        <source>For anonymization and staking only</source>
-        <translation>Esclusivamente per anonimizzazione e staking</translation>
-    </message>
-    <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Inserisci la nuova parola d'ordine per il portafoglio.&lt;br/&gt;Si raccomanda di usare una parola d'ordine di &lt;b&gt;dieci o più caratteri casuali&lt;/b&gt;, oppure di &lt;b&gt;otto o più parole&lt;/b&gt;.</translation>
     </message>
@@ -176,16 +172,16 @@
         <translation>Conferma cifratura portafoglio</translation>
     </message>
     <message>
-        <source>XdCash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XdCashs from being stolen by malware infecting your computer.</source>
-        <translation>XdCash verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi XdCash dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
+        <source>XDCASH will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDCASHs from being stolen by malware infecting your computer.</source>
+        <translation>XDCASH verrà ora chiuso per completare il processo di cifratura. Ricorda che crittografare il tuo portafoglio non protegge completamente i tuoi XDCASH dal furto da parte di software malevoli che potrebbero infettare il tuo computer.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Confermi di voler crittografare il portafoglio?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XdCash&lt;/b&gt;!</source>
-        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI XdCash&lt;7b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XDCASH&lt;/b&gt;!</source>
+        <translation>Attenzione: Se crittografi il portafoglio e poi perdi la parola d'ordine, &lt;b&gt;PERDERAI TUTTI I TUOI XDCASH&lt;7b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +235,16 @@
         <translation>&amp;BIP 38 Criptato</translation>
     </message>
     <message>
-        <source>Enter a XdCash Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Inserisci un indirizzo XdCash che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
+        <source>Enter a XDCASH Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Inserisci un indirizzo XDCASH che desideri crittografare utilizzando BIP 38. Inserisci una passphrase nella casella centrale. Premi Cripta per calcolare la chiave privata crittografata.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Indirizzo:</translation>
     </message>
     <message>
-        <source>The XdCash address to sign the message with</source>
-        <translation>L'indirizzo XdCash per firmare il messaggio con</translation>
+        <source>The XDCASH address to sign the message with</source>
+        <translation>L'indirizzo XDCASH per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +275,8 @@
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XdCash address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo XdCash</translation>
+        <source>Sign the message to prove you own this XDCASH address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo XDCASH</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +299,12 @@
         <translation>Immettere la chiave privata codificata BIP 38. Inserire la passphrase nella casella centrale. Fare clic su Decripta Chiave per calcolare la chiave privata. Dopo che la chiave viene decrittata, cliccando su "Importa indirizzo" verrà aggiunta questa chiave privata al portafoglio.</translation>
     </message>
     <message>
-        <source>The XdCash address the message was signed with</source>
-        <translation>L'indirizzo XdCash con cui è stato firmato il messaggio</translation>
+        <source>The XDCASH address the message was signed with</source>
+        <translation>L'indirizzo XDCASH con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XdCash address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo XdCash specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified XDCASH address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo XDCASH specificato</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -590,12 +586,12 @@
         <translation>Schede degli strumenti</translation>
     </message>
     <message>
-        <source>XdCash Core</source>
-        <translation>XdCash Core</translation>
+        <source>XDCASH Core</source>
+        <translation>XDCASH Core</translation>
     </message>
     <message>
-        <source>Send coins to a XdCash address</source>
-        <translation>Invia monete all' indirizzo XdCash</translation>
+        <source>Send coins to a XDCASH address</source>
+        <translation>Invia monete all'indirizzo XDCASH</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and xdcash: URIs)</source>
@@ -610,24 +606,24 @@
         <translation>Esplora i masternodes</translation>
     </message>
     <message>
-        <source>&amp;About XdCash Core</source>
-        <translation>&amp;Informazioni XdCash Core</translation>
+        <source>&amp;About XDCASH Core</source>
+        <translation>&amp;Informazioni XDCASH Core</translation>
     </message>
     <message>
-        <source>Show information about XdCash Core</source>
-        <translation>Visualizza informazioni su XdCash Core</translation>
+        <source>Show information about XDCASH Core</source>
+        <translation>Visualizza informazioni su XDCASH Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for XdCash</source>
-        <translation>Modifica le opzioni di configurazione per XdCash</translation>
+        <source>Modify configuration options for XDCASH</source>
+        <translation>Modifica le opzioni di configurazione per XDCASH</translation>
     </message>
     <message>
-        <source>Sign messages with your XdCash addresses to prove you own them</source>
-        <translation>Firma i messaggi con i tuoi indirizzi XdCash per dimostrare di essere il proprietario </translation>
+        <source>Sign messages with your XDCASH addresses to prove you own them</source>
+        <translation>Firma i messaggi con i tuoi indirizzi XDCASH per dimostrare di essere il proprietario </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified XdCash addresses</source>
-        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi XdCash specifici</translation>
+        <source>Verify messages to ensure they were signed with specified XDCASH addresses</source>
+        <translation>Verifica i messaggi per assicurarsi che siano stati firmati con indirizzi XDCASH specifici</translation>
     </message>
     <message>
         <source>Encrypt and decrypt private keys using a passphrase</source>
@@ -638,16 +634,16 @@
         <translation>Impostazioni MultiSend</translation>
     </message>
     <message>
-        <source>Open a XdCash: URI or payment request</source>
-        <translation>Apri un XdCash: URI o richiesta di pagamento</translation>
+        <source>Open a xdcash: URI or payment request</source>
+        <translation>Apri un xdcash: URI o richiesta di pagamento</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>Finestra Block Explorer</translation>
     </message>
     <message>
-        <source>Show the XdCash Core help message to get a list with possible XdCash command-line options</source>
-        <translation>Mostra il messaggio di aiuto XdCash Core per ottenere un elenco con le possibili opzioni di riga di comando XdCash</translation>
+        <source>Show the XDCASH Core help message to get a list with possible XDCASH command-line options</source>
+        <translation>Mostra il messaggio di aiuto XDCASH Core per ottenere un elenco con le possibili opzioni di riga di comando XDCASH</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -732,10 +728,6 @@ MultiSend: %1</translation>
  MultiSend: %1</source>
         <translation>Lo Staking non è attivo
 MultiSend: %1</translation>
-    </message>
-    <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization and staking only</source>
-        <translation>Il portafoglio è &lt;b&gt;crittografato&lt;/b&gt; e attualmente &lt;b&gt;sbloccato&lt;/b&gt; per l'anonimizzazione e il solo stacking</translation>
     </message>
     </context>
 <context>
@@ -888,8 +880,8 @@ MultiSend: %1</translation>
         <translation>versione</translation>
     </message>
     <message>
-        <source>XdCash Core</source>
-        <translation>XdCash Core</translation>
+        <source>XDCASH Core</source>
+        <translation>XDCASH Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -915,8 +907,8 @@ MultiSend: %1</translation>
         <translation>Benvenuto</translation>
     </message>
     <message>
-        <source>XdCash Core</source>
-        <translation>XdCash Core</translation>
+        <source>XDCASH Core</source>
+        <translation>XDCASH Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -950,9 +942,6 @@ MultiSend: %1</translation>
     </message>
     </context>
 <context>
-    <name>ObfuscationConfig</name>
-    </context>
-<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -966,53 +955,6 @@ MultiSend: %1</translation>
     </context>
 <context>
     <name>PeerTableModel</name>
-    </context>
-<context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>Quantity:</source>
-        <translation>Quantità:</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Totale:</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Scegli l'indirizzo utilizzato in precedenza</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Incolla l'indirizzo dagli appunti</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Priorità:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Tassa:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>no</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Differenza:</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Copia ammontare</translation>
-    </message>
     </context>
 <context>
     <name>QObject</name>
@@ -1111,10 +1053,6 @@ MultiSend: %1</translation>
         <translation>Copia ammontare</translation>
     </message>
     <message>
-        <source>anonymous funds</source>
-        <translation>Fondi anonimi</translation>
-    </message>
-    <message>
         <source>(no label)</source>
         <translation>(nessuna etichetta)</translation>
     </message>
@@ -1144,8 +1082,8 @@ MultiSend: %1</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The XdCash address to sign the message with</source>
-        <translation>L'indirizzo XdCash per firmare il messaggio con</translation>
+        <source>The XDCASH address to sign the message with</source>
+        <translation>L'indirizzo XDCASH per firmare il messaggio con</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1168,16 +1106,16 @@ MultiSend: %1</translation>
         <translation>Copiare la firma corrente negli Appunti di sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XdCash address</source>
-        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo XdCash</translation>
+        <source>Sign the message to prove you own this XDCASH address</source>
+        <translation>Firmare il messaggio per dimostrare di possedere questo indirizzo XDCASH</translation>
     </message>
     <message>
-        <source>The XdCash address the message was signed with</source>
-        <translation>L'indirizzo XdCash con cui è stato firmato il messaggio</translation>
+        <source>The XDCASH address the message was signed with</source>
+        <translation>L'indirizzo XDCASH con cui è stato firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XdCash address</source>
-        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo XdCash specificato </translation>
+        <source>Verify the message to ensure it was signed with the specified XDCASH address</source>
+        <translation>Verificare il messaggio per assicurarsi che sia stato firmato con l'indirizzo XDCASH specificato </translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
@@ -1215,8 +1153,8 @@ MultiSend: %1</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XdCash Core</source>
-        <translation>XdCash Core</translation>
+        <source>XDCASH Core</source>
+        <translation>XDCASH Core</translation>
     </message>
     </context>
 <context>
@@ -1309,9 +1247,6 @@ MultiSend: %1</translation>
         <source>Export the data in the current tab to a file</source>
         <translation>Esporta i dati della scheda corrente in un file</translation>
     </message>
-    </context>
-<context>
-    <name>ZPhrControlDialog</name>
     </context>
 <context>
     <name>xdcash-core</name>

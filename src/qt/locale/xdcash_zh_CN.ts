@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>选择发送XdCash coin的地址</translation>
+        <translation>选择发送XDCASH的地址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>选择接收XdCash coin的地址</translation>
+        <translation>选择接收XDCASH的地址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -62,12 +62,12 @@
         <translation>接收地址</translation>
     </message>
     <message>
-        <source>These are your XdCash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>这是用于发送XdCash的地址。在发送XdCash之前，请认真核查发送金额和接收地址。</translation>
+        <source>These are your XDCASH addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>这是用于发送XDCASH的地址。在发送XDCASH之前，请认真核查发送金额和接收地址。</translation>
     </message>
     <message>
-        <source>These are your XdCash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>这是用于接收XdCash的钱包地址。建议每一笔交易都使用一个新的钱包地址。</translation>
+        <source>These are your XDCASH addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>这是用于接收XDCASH的钱包地址。建议每一笔交易都使用一个新的钱包地址。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -136,10 +136,6 @@
         <translation>用于在操作系统帐户遭到破坏时禁用琐碎的sendmoney。没有真正的安全性。</translation>
     </message>
     <message>
-        <source>For anonymization and staking only</source>
-        <translation>仅用于匿名化和加密</translation>
-    </message>
-    <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>输入一个新的钱包密码&lt;br/&gt;钱包密码&lt;b&gt;建议使用10位以上的随机字符&lt;/b&gt;，或者&lt;b&gt; 3个以上的单词&lt;/b&gt;。并建议有序使用大小写字母。</translation>
     </message>
@@ -176,16 +172,16 @@
         <translation>确认钱包加密</translation>
     </message>
     <message>
-        <source>XdCash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XdCashs from being stolen by malware infecting your computer.</source>
-        <translation>XdCash将关闭以完成加密过程。但是，仅仅加密您的钱包是不够的，因为它并不能阻止恶意软件从您的电脑里面偷取XdCashs。</translation>
+        <source>XDCASH will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDCASHs from being stolen by malware infecting your computer.</source>
+        <translation>XDCASH将关闭以完成加密过程。但是，仅仅加密您的钱包是不够的，因为它并不能阻止恶意软件从您的电脑里面偷取XDCASHs。</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>您确定加密您的钱包吗？</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XdCash&lt;/b&gt;!</source>
-        <translation>注意：请妥善保管好你的密码，因为在加密后，没有密码将无法打开钱包。这将会让您&lt;b&gt;损失钱包中所有的XdCash&lt;/b&gt;！</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XDCASH&lt;/b&gt;!</source>
+        <translation>注意：请妥善保管好你的密码，因为在加密后，没有密码将无法打开钱包。这将会让您&lt;b&gt;损失钱包中所有的XDCASH&lt;/b&gt;！</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -239,16 +235,16 @@
         <translation>&amp;BIP 38 加密</translation>
     </message>
     <message>
-        <source>Enter a XdCash Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>输入您要使用BIP 38加密的XdCash地址。在中间框中输入密码。按加密计算加密私钥。</translation>
+        <source>Enter a XDCASH Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>输入您要使用BIP 38加密的XDCASH地址。在中间框中输入密码。按加密计算加密私钥。</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>地址：</translation>
     </message>
     <message>
-        <source>The XdCash address to sign the message with</source>
-        <translation>该XdCash地址签名的消息</translation>
+        <source>The XDCASH address to sign the message with</source>
+        <translation>该XDCASH地址签名的消息</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +275,8 @@
         <translation>将当前签名复制到系统剪贴板</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XdCash address</source>
-        <translation>签署消息以证明您拥有此XdCash地址</translation>
+        <source>Sign the message to prove you own this XDCASH address</source>
+        <translation>签署消息以证明您拥有此XDCASH地址</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +299,12 @@
         <translation>输入BIP 38加密私钥。 在中间框中输入密码。 单击解密密钥计算私钥。 密钥解密后，单击“导入地址”将将该私钥添加到钱包中。</translation>
     </message>
     <message>
-        <source>The XdCash address the message was signed with</source>
-        <translation>由XdCash地址签名的消息</translation>
+        <source>The XDCASH address the message was signed with</source>
+        <translation>由XDCASH地址签名的消息</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XdCash address</source>
-        <translation>验证消息确保它已使用指定的XdCash地址进行签名</translation>
+        <source>Verify the message to ensure it was signed with the specified XDCASH address</source>
+        <translation>验证消息确保它已使用指定的XDCASH地址进行签名</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -403,7 +399,7 @@
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;O概述</translation>
+        <translation>&amp;概述</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -411,15 +407,15 @@
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>&amp;S发送</translation>
+        <translation>&amp;发送</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;R接收</translation>
+        <translation>&amp;接收</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;T交易</translation>
+        <translation>&amp;交易</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
@@ -443,11 +439,11 @@
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Q选项</translation>
+        <translation>&amp;选项</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;S显示/隐藏</translation>
+        <translation>&amp;显示/隐藏</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
@@ -455,7 +451,7 @@
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;E加密钱包...</translation>
+        <translation>&amp;加密钱包...</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
@@ -463,7 +459,7 @@
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;B备份钱包...</translation>
+        <translation>&amp;备份钱包...</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -471,7 +467,7 @@
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;C修改密码</translation>
+        <translation>&amp;修改密码</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -479,7 +475,7 @@
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;U解锁钱包...</translation>
+        <translation>&amp;解锁钱包...</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
@@ -487,11 +483,11 @@
     </message>
     <message>
         <source>&amp;Lock Wallet</source>
-        <translation>&amp;L锁定钱包</translation>
+        <translation>&amp;锁定钱包</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>S签名&amp;消息</translation>
+        <translation>签名&amp;消息</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
@@ -499,7 +495,7 @@
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>&amp;I信息</translation>
+        <translation>&amp;信息</translation>
     </message>
     <message>
         <source>Show diagnostic information</source>
@@ -507,7 +503,7 @@
     </message>
     <message>
         <source>&amp;Debug console</source>
-        <translation>&amp;D调试控制台</translation>
+        <translation>&amp;调试控制台</translation>
     </message>
     <message>
         <source>Open debugging console</source>
@@ -515,7 +511,7 @@
     </message>
     <message>
         <source>&amp;Network Monitor</source>
-        <translation>&amp;N网络监视器</translation>
+        <translation>&amp;网络监视器</translation>
     </message>
     <message>
         <source>Show network monitor</source>
@@ -523,7 +519,7 @@
     </message>
     <message>
         <source>&amp;Peers list</source>
-        <translation>&amp;P并列列表</translation>
+        <translation>&amp;并列列表</translation>
     </message>
     <message>
         <source>Show peers info</source>
@@ -531,7 +527,7 @@
     </message>
     <message>
         <source>Wallet &amp;Repair</source>
-        <translation>W钱包&amp;修复</translation>
+        <translation>钱包&amp;修复</translation>
     </message>
     <message>
         <source>Show wallet repair options</source>
@@ -551,7 +547,7 @@
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;S发送地址...</translation>
+        <translation>&amp;发送地址...</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -559,7 +555,7 @@
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>&amp;R接收地址</translation>
+        <translation>&amp;接收地址</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
@@ -567,15 +563,11 @@
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>O打开&amp;URI</translation>
+        <translation>打开&amp;URI</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>&amp;C命令行选项</translation>
-    </message>
-    <message numerus="yes">
-        <source>Processed %n blocks of transaction history.</source>
-        <translation><numerusform>处理的 %n个交易记录块。</numerusform></translation>
+        <translation>&amp;命令行选项</translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
@@ -583,71 +575,63 @@
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;F文件</translation>
+        <translation>&amp;文件</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;S设置</translation>
+        <translation>&amp;设置</translation>
     </message>
     <message>
         <source>&amp;Tools</source>
-        <translation>&amp;T工具</translation>
+        <translation>&amp;工具</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;H帮助</translation>
+        <translation>&amp;帮助</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
         <translation>标签工具栏</translation>
     </message>
     <message>
-        <source>XdCash Core</source>
-        <translation>XdCash Core</translation>
+        <source>XDCASH Core</source>
+        <translation>XDCASH 核心</translation>
     </message>
     <message>
-        <source>Send coins to a XdCash address</source>
-        <translation>发送数字货币到XdCash地址</translation>
+        <source>Send coins to a XDCASH address</source>
+        <translation>发送数字货币到XDCASH地址</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and xdcash: URIs)</source>
         <translation>请求支付（生成二维码和xdcash：URIs）</translation>
     </message>
     <message>
-        <source>&amp;Privacy</source>
-        <translation>&amp;P隐私</translation>
-    </message>
-    <message>
-        <source>Privacy Action for zXdCash and Obfuscation</source>
-        <translation>zXdCash和混淆的隐私操作</translation>
-    </message>
-    <message>
         <source>&amp;Masternodes</source>
-        <translation>&amp;M主节点</translation>
+        <translation>&amp;主节点</translation>
     </message>
     <message>
         <source>Browse masternodes</source>
         <translation>浏览主节点</translation>
     </message>
     <message>
-        <source>&amp;About XdCash Core</source>
-        <translation>&amp;A关于XdCash Core</translation>
+        <source>&amp;About XDCASH Core</source>
+        <translation>&amp;关于XDCASH核心</translation>
     </message>
     <message>
-        <source>Show information about XdCash Core</source>
-        <translation>显示XdCash  Core的相关信息</translation>
+        <source>Show information about XDCASH Core</source>
+        <translation>显示XDCASH核心的相关信息</translation>
     </message>
     <message>
-        <source>Modify configuration options for XdCash</source>
-        <translation>修改XdCash的配置选项</translation>
+        <source>Modify configuration options for XDCASH</source>
+        <translation>修改XDCASH的配置选项</translation>
     </message>
     <message>
-        <source>Sign messages with your XdCash addresses to prove you own them</source>
-        <translation>使用您的XdCash地址验证消息，以证明您拥有他们</translation>
+        <source>Sign messages with your XDCASH addresses to prove you own them</source>
+        <translation>使用您的XDCASH地址验证消息，以证明您拥有他们</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified XdCash addresses</source>
-        <translation>验证消息确保它已使用指定的XdCash地址进行签名</translation>
+        <source>Verify messages to ensure they were signed with specified XDCASH addresses</source>
+        <translation>验证消息确保它已使用指定的XDCASH地址进行签名</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -659,7 +643,7 @@
     </message>
     <message>
         <source>&amp;MultiSend</source>
-        <translation>&amp;M多重发送</translation>
+        <translation>&amp;多重发送</translation>
     </message>
     <message>
         <source>MultiSend Settings</source>
@@ -678,29 +662,24 @@
         <translation>打开主节点配置文件</translation>
     </message>
     <message>
-        <source>Open a XdCash: URI or payment request</source>
-        <translation>打开XdCash：URI或付款请求</translation>
+        <source>Open a xdcash: URI or payment request</source>
+        <translation>打开xdcash：URI或付款请求</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
-        <translation>&amp;B区块浏览器</translation>
+        <translation>&amp;区块浏览器</translation>
     </message>
     <message>
         <source>Block explorer window</source>
         <translation>区块浏览窗口</translation>
     </message>
     <message>
-        <source>Show the XdCash Core help message to get a list with possible XdCash command-line options</source>
-        <translation>显示XdCash Core帮助信息并获取XdCash命令行选项列表</translation>
+        <source>Show the XDCASH Core help message to get a list with possible XDCASH command-line options</source>
+        <translation>显示XDCASH Core帮助信息以获取可能的XDCASH命令行选项的列表</translation>
     </message>
     <message>
-        <source>XdCash Core client</source>
-        <translation>XdCash Core 客户端</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n active connection(s) to XdCash network</source>
-        <translation><numerusform>%n 活动连接到XdCash网络
-</numerusform></translation>
+        <source>XDCASH Core client</source>
+        <translation>XDCASH核心客户端</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -721,22 +700,6 @@
     <message>
         <source>Up to date</source>
         <translation>最新</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n 小时</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n 天</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n 星期</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n 年</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -767,18 +730,6 @@
         <translation>信息</translation>
     </message>
     <message>
-        <source>Sent transaction</source>
-        <translation>发送交易</translation>
-    </message>
-    <message>
-        <source>Incoming transaction</source>
-        <translation>接收交易</translation>
-    </message>
-    <message>
-        <source>Sent MultiSend transaction</source>
-        <translation>发送MultiSend交易</translation>
-    </message>
-    <message>
         <source>Date: %1
 Amount: %2
 Type: %3
@@ -789,14 +740,6 @@ Address: %4
 类型：%3
 地址：%4
 </translation>
-    </message>
-    <message>
-        <source>Active</source>
-        <translation>激活</translation>
-    </message>
-    <message>
-        <source>Not Active</source>
-        <translation>未激活</translation>
     </message>
     </context>
 <context>
@@ -865,31 +808,15 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>XdCash Core</source>
-        <translation>XdCash Core</translation>
-    </message>
-    <message>
-        <source>About XdCash Core</source>
-        <translation>关于XdCash Core</translation>
+        <source>XDCASH Core</source>
+        <translation>XDCASH 核心</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>Welcome to XdCash Core.</source>
-        <translation>欢迎使用 XdCash Core</translation>
-    </message>
-    <message>
-        <source>As this is the first time the program is launched, you can choose where XdCash Core will store its data.</source>
-        <translation>由于这是该程序第一次启动，您可以选择存储XdCash Core 数据的位置。</translation>
-    </message>
-    <message>
-        <source>XdCash Core will download and store a copy of the XdCash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>XdCash Core将下载并存储XdCash区块链副本。 至少 %1 GB的数据将存储在此目录中，并且会随着时间的推移而增长。 钱包也将存储在此目录中。</translation>
-    </message>
-    <message>
-        <source>XdCash Core</source>
-        <translation>XdCash Core</translation>
+        <source>XDCASH Core</source>
+        <translation>XDCASH 核心</translation>
     </message>
     <message>
         <source>Error</source>
@@ -909,10 +836,6 @@ Address: %4
     <message>
         <source>Address</source>
         <translation>地址</translation>
-    </message>
-    <message>
-        <source>Active</source>
-        <translation>激活</translation>
     </message>
     <message>
         <source>S&amp;tart alias</source>
@@ -943,9 +866,6 @@ Address: %4
     </message>
     </context>
 <context>
-    <name>ObfuscationConfig</name>
-    </context>
-<context>
     <name>OpenURIDialog</name>
     </context>
 <context>
@@ -971,16 +891,16 @@ Address: %4
         <translation>如果您要禁用未经确认发送，在至少有一个确认之前&lt;br/&gt;不能更改。&lt;br/&gt;这也将影响您的余额计算。</translation>
     </message>
     <message>
-        <source>Automatically open the XdCash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自动打开路由器上的XdCash钱包使用的端口。 这只有当您的路由器支持UPnP并且该享生效时才有用。</translation>
+        <source>Automatically open the XDCASH client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自动打开路由器上的XDCASH钱包使用的端口。 这只有当您的路由器支持UPnP并且该享生效时才有用。</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
         <translation>&amp;使用SOCKS5代理（默认代理）</translation>
     </message>
     <message>
-        <source>&amp;Start XdCash on system login</source>
-        <translation>&amp;开机启动XdCash</translation>
+        <source>&amp;Start XDCASH on system login</source>
+        <translation>&amp;开机启动XDCASH</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1031,16 +951,12 @@ Address: %4
         <translation>选择&amp;语言包</translation>
     </message>
     <message>
-        <source>User Interface Theme:</source>
-        <translation>界面主题（语言包）:</translation>
-    </message>
-    <message>
         <source>&amp;Unit to show amounts in:</source>
         <translation>&amp;单位显示金额</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>选择显示发送XdCash的默认单位。</translation>
+        <translation>选择显示发送XDCASH的默认单位。</translation>
     </message>
     <message>
         <source>Decimal digits</source>
@@ -1056,7 +972,7 @@ Address: %4
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>激活上述选项的命令行选项：</translation>
+        <translation>上述选项的主动命令行选项：</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -1118,8 +1034,8 @@ Address: %4
         <translation>您目前的支出余额</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the XdCash network after a connection is established, but this process has not completed yet.</source>
-        <translation>显示的信息可能已过期。建立连接后，您的钱包会自动与XdCash网络同步，但此过程尚未完成。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the XDCASH network after a connection is established, but this process has not completed yet.</source>
+        <translation>显示的信息可能已过期。建立连接后，您的钱包会自动与XDCASH网络同步，但此过程尚未完成。</translation>
     </message>
     <message>
         <source>Your current total balance</source>
@@ -1135,41 +1051,6 @@ Address: %4
     </context>
 <context>
     <name>PeerTableModel</name>
-    </context>
-<context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the XdCash network after a connection is established, but this process has not completed yet.</source>
-        <translation>显示的信息可能已过期。建立连接后，您的钱包会自动与XdCash网络同步，但此过程尚未完成。</translation>
-    </message>
-    <message>
-        <source>Pay &amp;To:</source>
-        <translation>支&amp;付</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>选以前使用的地址</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>从剪贴板复制地址</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>&amp;标签</translation>
-    </message>
-    <message>
-        <source>A&amp;mount:</source>
-        <translation>A&amp;总计</translation>
-    </message>
     </context>
 <context>
     <name>QObject</name>
@@ -1227,12 +1108,12 @@ Address: %4
         <translation>&amp;消息：</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the XdCash network.</source>
-        <translation>附加到付款请求的可选消息，将在请求打开时显示。 注意：消息不会在付款时通过XdCash网络发送。</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the XDCASH network.</source>
+        <translation>附加到付款请求的可选消息，将在请求打开时显示。 注意：消息不会在付款时通过XDCASH网络发送。</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the XdCash network.</source>
-        <translation>附加到付款请求的可选消息，将在请求打开时显示。&lt;br&gt; 注意：消息不会在付款时通过XdCash网络发送。</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the XDCASH network.</source>
+        <translation>附加到付款请求的可选消息，将在请求打开时显示。&lt;br&gt; 注意：消息不会在付款时通过XDCASH网络发送。</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -1367,8 +1248,8 @@ Address: %4
         <translation>消息:</translation>
     </message>
     <message>
-        <source>A message that was attached to the XdCash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the XdCash network.</source>
-        <translation>附加到XdCash：URI的消息，该消息将与转账信息一起存储以供参考。 注意：此消息不会通过XdCash网络发送。</translation>
+        <source>A message that was attached to the xdcash: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the XDCASH network.</source>
+        <translation>附加到xdcash：URI的消息，该消息将与转账信息一起存储以供参考。 注意：此消息不会通过XDCASH网络发送。</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1393,8 +1274,8 @@ Address: %4
         <translation>您可以使用地址签名消息，以证明您拥有他们。 小心不要签名任何您不了解的，因为网络钓鱼攻击可能会试图欺骗您，以让您签名。 只能签署您熟悉并且了解和同意的。</translation>
     </message>
     <message>
-        <source>The XdCash address to sign the message with</source>
-        <translation>该XdCash地址签名的消息</translation>
+        <source>The XDCASH address to sign the message with</source>
+        <translation>该XDCASH地址签名的消息</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1421,16 +1302,16 @@ Address: %4
         <translation>将当前签名复制到系统剪贴板</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XdCash address</source>
-        <translation>签署消息以证明您拥有此XdCash地址</translation>
+        <source>Sign the message to prove you own this XDCASH address</source>
+        <translation>签署消息以证明您拥有此XDCASH地址</translation>
     </message>
     <message>
-        <source>The XdCash address the message was signed with</source>
-        <translation>由XdCash地址签名的消息</translation>
+        <source>The XDCASH address the message was signed with</source>
+        <translation>由XDCASH地址签名的消息</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XdCash address</source>
-        <translation>验证消息确保它已使用指定的XdCash地址进行签名</translation>
+        <source>Verify the message to ensure it was signed with the specified XDCASH address</source>
+        <translation>验证消息确保它已使用指定的XDCASH地址进行签名</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1508,8 +1389,8 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XdCash Core</source>
-        <translation>XdCash Core</translation>
+        <source>XDCASH Core</source>
+        <translation>XDCASH 核心</translation>
     </message>
     </context>
 <context>
@@ -1588,17 +1469,14 @@ Address: %4
     </message>
     </context>
 <context>
-    <name>ZPhrControlDialog</name>
-    </context>
-<context>
     <name>xdcash-core</name>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>在收到相关警报时执行命令，或者看到一个很长的分叉（cmd中的%s被消息替换）</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong XdCash Core will not work properly.</source>
-        <translation>注意：请检查您的电脑的日期和时间是否正确！ 如果您的时间设置不正确，XdCash Core将无法正常工作。</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong XDCASH Core will not work properly.</source>
+        <translation>注意：请检查您的电脑的日期和时间是否正确！ 如果您的时间设置不正确，XDCASH Core将无法正常工作。</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>

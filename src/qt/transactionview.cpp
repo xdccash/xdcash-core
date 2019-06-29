@@ -95,10 +95,10 @@ TransactionView::TransactionView(QWidget* parent) : QWidget(parent), model(0), t
     typeWidget->addItem(tr("Mined"), TransactionFilterProxy::TYPE(TransactionRecord::Generated));
     typeWidget->addItem(tr("Minted"), TransactionFilterProxy::TYPE(TransactionRecord::StakeMint));
     typeWidget->addItem(tr("Masternode Reward"), TransactionFilterProxy::TYPE(TransactionRecord::MNReward));
-    typeWidget->addItem(tr("Received XdCash from zXdCash"), TransactionFilterProxy::TYPE(TransactionRecord::RecvFromZerocoinSpend));
+    typeWidget->addItem(tr("Received Xdcash from zXdcash"), TransactionFilterProxy::TYPE(TransactionRecord::RecvFromZerocoinSpend));
     typeWidget->addItem(tr("Zerocoin Mint"), TransactionFilterProxy::TYPE(TransactionRecord::ZerocoinMint));
     typeWidget->addItem(tr("Zerocoin Spend"), TransactionFilterProxy::TYPE(TransactionRecord::ZerocoinSpend));
-    typeWidget->addItem(tr("Zerocoin Spend, Change in zXdCash"), TransactionFilterProxy::TYPE(TransactionRecord::ZerocoinSpend_Change_zXdCash));
+    typeWidget->addItem(tr("Zerocoin Spend, Change in zXdcash"), TransactionFilterProxy::TYPE(TransactionRecord::ZerocoinSpend_Change_zXdcash));
     typeWidget->addItem(tr("Zerocoin Spend to Self"), TransactionFilterProxy::TYPE(TransactionRecord::ZerocoinSpend_FromMe));
     typeWidget->addItem(tr("Other"), TransactionFilterProxy::TYPE(TransactionRecord::Other));
     typeWidget->setCurrentIndex(settings.value("transactionType").toInt());
@@ -155,9 +155,7 @@ TransactionView::TransactionView(QWidget* parent) : QWidget(parent), model(0), t
     QAction* copyTxIDAction = new QAction(tr("Copy transaction ID"), this);
     QAction* editLabelAction = new QAction(tr("Edit label"), this);
     QAction* showDetailsAction = new QAction(tr("Show transaction details"), this);
-//    hideOrphansAction = new QAction(tr("Hide orphan stakes"), this);
-//      hideOrphansAction->setCheckable(true);
-//     hideOrphansAction->setChecked(settings.value("fHideOrphans", false).toBool());
+
     contextMenu = new QMenu();
     contextMenu->addAction(copyAddressAction);
     contextMenu->addAction(copyLabelAction);
@@ -165,7 +163,6 @@ TransactionView::TransactionView(QWidget* parent) : QWidget(parent), model(0), t
     contextMenu->addAction(copyTxIDAction);
     contextMenu->addAction(editLabelAction);
     contextMenu->addAction(showDetailsAction);
-    // contextMenu->addAction(hideOrphansAction);
 
     mapperThirdPartyTxUrls = new QSignalMapper(this);
 
@@ -188,8 +185,6 @@ TransactionView::TransactionView(QWidget* parent) : QWidget(parent), model(0), t
     connect(copyTxIDAction, SIGNAL(triggered()), this, SLOT(copyTxID()));
     connect(editLabelAction, SIGNAL(triggered()), this, SLOT(editLabel()));
     connect(showDetailsAction, SIGNAL(triggered()), this, SLOT(showDetails()));
-//        connect(hideOrphansAction, SIGNAL(toggled(bool)), this, SLOT(updateHideOrphans(bool)));
-
 }
 
 void TransactionView::setModel(WalletModel* model)
@@ -251,22 +246,8 @@ void TransactionView::setModel(WalletModel* model)
         chooseType(settings.value("transactionType").toInt());
         chooseDate(settings.value("transactionDate").toInt());
     }
-                connect(model->getOptionsModel(), SIGNAL(hideOrphansChanged(bool)), this, SLOT(updateHideOrphans(bool)));
-
 }
-// void TransactionView::updateHideOrphans(bool fHide)
-// {
-//     QSettings settings;
-//     if (settings.value("fHideOrphans", false).toBool() != fHide) {
-//         settings.setValue("fHideOrphans", fHide);
-//         if (model && model->getOptionsModel())
-//             emit model->getOptionsModel()->hideOrphansChanged(fHide);
-//     }
-//     hideOrphans(fHide);
-//     // retain consistency with other checkboxes
-//     if (hideOrphansAction->isChecked() != fHide)
-//         hideOrphansAction->setChecked(fHide);
-//  }
+
 void TransactionView::chooseDate(int idx)
 {
     if (!transactionProxyModel)

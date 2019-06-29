@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your XdCash addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços XdCash para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your XDCASH addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços XDCASH para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your XdCash addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços XdCash para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your XDCASH addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços XDCASH para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -132,10 +132,6 @@
         <translation>Repita a nova palavra-chave</translation>
     </message>
     <message>
-        <source>For anonymization and staking only</source>
-        <translation>Para anonimização e staking somente</translation>
-    </message>
-    <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
         <translation>Digite uma nova senha para esta carteira.&lt;br/&gt;Use uma senha com &lt;b&gt;dez ou mais caracteres aleatórios&lt;/b&gt; ou &lt;b&gt;mais de oito palavras.&lt;/b&gt;</translation>
     </message>
@@ -172,16 +168,16 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>XdCash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XdCashs from being stolen by malware infecting your computer.</source>
-        <translation>XdCash vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas XdCashs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>XDCASH will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your XDCASHs from being stolen by malware infecting your computer.</source>
+        <translation>XDCASH vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas XDCASHs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Você tem certeza que deseja criptografar sua carteira?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XdCash&lt;/b&gt;!</source>
-        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS XdCash&lt;b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR XDCASH&lt;/b&gt;!</source>
+        <translation>Aviso: se você criptografar sua carteira e perder sua senha você &lt;b&gt;PERDERÁ TODAS AS SUAS XDCASH&lt;b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -235,7 +231,7 @@
         <translation>&amp;Encriptação BIP 38</translation>
     </message>
     <message>
-        <source>Enter a XdCash Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a XDCASH Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Insira um endereço que você deseja criptografar usando a BIP 38. Insira a palavra-chave na caixa do meio. Pressione criptografar para computar a chave privada criptografada.</translation>
     </message>
     <message>
@@ -243,8 +239,8 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The XdCash address to sign the message with</source>
-        <translation>O endereço XdCash para assinar a mensagem</translation>
+        <source>The XDCASH address to sign the message with</source>
+        <translation>O endereço XDCASH para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +271,8 @@
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XdCash address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço XdCash</translation>
+        <source>Sign the message to prove you own this XDCASH address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço XDCASH</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -291,12 +287,12 @@
         <translation>Limpar &amp;Tudo</translation>
     </message>
     <message>
-        <source>The XdCash address the message was signed with</source>
-        <translation>O endereço XdCash que assinou a mensagem</translation>
+        <source>The XDCASH address the message was signed with</source>
+        <translation>O endereço XDCASH que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XdCash address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço XdCash especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified XDCASH address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço XDCASH especificado.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -586,12 +582,12 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>XdCash Core</source>
-        <translation>XdCash Core</translation>
+        <source>XDCASH Core</source>
+        <translation>XDCASH Core</translation>
     </message>
     <message>
-        <source>Send coins to a XdCash address</source>
-        <translation>Enviar moedas para um endereço XdCash</translation>
+        <source>Send coins to a XDCASH address</source>
+        <translation>Enviar moedas para um endereço XDCASH</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and xdcash: URIs)</source>
@@ -606,24 +602,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About XdCash Core</source>
-        <translation>&amp;Sobre o XdCash Core</translation>
+        <source>&amp;About XDCASH Core</source>
+        <translation>&amp;Sobre o XDCASH Core</translation>
     </message>
     <message>
-        <source>Show information about XdCash Core</source>
-        <translation>Mostra informação sobre o XdCash Core</translation>
+        <source>Show information about XDCASH Core</source>
+        <translation>Mostra informação sobre o XDCASH Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for XdCash</source>
-        <translation>Modificar opções de configuração para XdCash</translation>
+        <source>Modify configuration options for XDCASH</source>
+        <translation>Modificar opções de configuração para XDCASH</translation>
     </message>
     <message>
-        <source>Sign messages with your XdCash addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços XdCash para provar que você os detém</translation>
+        <source>Sign messages with your XDCASH addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços XDCASH para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified XdCash addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços XdCash especificados</translation>
+        <source>Verify messages to ensure they were signed with specified XDCASH addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços XDCASH especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -654,8 +650,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a XdCash: URI or payment request</source>
-        <translation>Abrir um XdCash: URI ou requisição de pagamento</translation>
+        <source>Open a xdcash: URI or payment request</source>
+        <translation>Abrir um xdcash: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -666,12 +662,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the XdCash Core help message to get a list with possible XdCash command-line options</source>
-        <translation>Mostra a ajuda da XdCash Core para receber uma lista com possíveis opções de linha de comando XdCash</translation>
+        <source>Show the XDCASH Core help message to get a list with possible XDCASH command-line options</source>
+        <translation>Mostra a ajuda da XDCASH Core para receber uma lista com possíveis opções de linha de comando XDCASH</translation>
     </message>
     <message>
-        <source>XdCash Core client</source>
-        <translation>Cliente Core XdCash</translation>
+        <source>XDCASH Core client</source>
+        <translation>Cliente Core XDCASH</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -779,10 +775,6 @@ MultiSend: %1</translation>
         <translation>A Carteira está &lt;b&gt;criptografada&lt;/b&gt; e atualmente &lt;b&gt;desbloqueada&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization and staking only</source>
-        <translation>A Carteira está &lt;b&gt;criptografada&lt;/b&gt; e atualmente &lt;b&gt;desbloqueada&lt;/b&gt; somente para anonimização e staking</translation>
-    </message>
-    <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>A carteira está &lt;b&gt;criptografada&lt;/b&gt; e atualmente &lt;b&gt;travada&lt;/b&gt;</translation>
     </message>
@@ -812,6 +804,10 @@ MultiSend: %1</translation>
 </context>
 <context>
     <name>ClientModel</name>
+    <message>
+        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
+        <translation>Total: %1 (OBF compatível: %2 / Ativado: %3)</translation>
+    </message>
     <message>
         <source>Network Alert</source>
         <translation>Alerta de rede</translation>
@@ -968,8 +964,8 @@ MultiSend: %1</translation>
         <translation>médio-alto</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>pode variar entre +/-%1 duff(s) por input</translation>
+        <source>Can vary +/- %1 uxdcash per input.</source>
+        <translation>pode variar entre +/-%1 uxdcash por input</translation>
     </message>
     <message>
         <source>medium</source>
@@ -1083,8 +1079,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid XdCash address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de XdCash</translation>
+        <source>The entered address "%1" is not a valid XDCASH address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de XDCASH</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1129,16 +1125,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>XdCash Core</source>
-        <translation>XdCash Core</translation>
+        <source>XDCASH Core</source>
+        <translation>XDCASH Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About XdCash Core</source>
-        <translation>Sobre o XdCash Core</translation>
+        <source>About XDCASH Core</source>
+        <translation>Sobre o XDCASH Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1172,16 +1168,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to XdCash Core.</source>
-        <translation>Bem-vindo ao XdCash Core.</translation>
+        <source>Welcome to XDCASH Core.</source>
+        <translation>Bem-vindo ao XDCASH Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where XdCash Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde XdCash Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where XDCASH Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde XDCASH Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>XdCash Core will download and store a copy of the XdCash block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>XdCash Core vai baixar e armazenar uma cópia da blockchain XdCash. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>XDCASH Core will download and store a copy of the XDCASH block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>XDCASH Core vai baixar e armazenar uma cópia da blockchain XDCASH. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1192,8 +1188,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>XdCash Core</source>
-        <translation>XdCash Core</translation>
+        <source>XDCASH Core</source>
+        <translation>XDCASH Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1426,73 +1422,6 @@ Favor verificar o endereço e tente novamente.</translation>
     </message>
 </context>
 <context>
-    <name>ObfuscationConfig</name>
-    <message>
-        <source>Configure Obfuscation</source>
-        <translation>Configurar Ofuscação</translation>
-    </message>
-    <message>
-        <source>Basic Privacy</source>
-        <translation>Privacidade Básica</translation>
-    </message>
-    <message>
-        <source>High Privacy</source>
-        <translation>Alta Privacidade</translation>
-    </message>
-    <message>
-        <source>Maximum Privacy</source>
-        <translation>Privacidade Máxima</translation>
-    </message>
-    <message>
-        <source>Please select a privacy level.</source>
-        <translation>Favor selecionar o nível de privacidade.</translation>
-    </message>
-    <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 XdCash</source>
-        <translation>Use 2 masternodes separados para embaralhar fundos até 10000 XdCash</translation>
-    </message>
-    <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 XdCash</source>
-        <translation>Use 8 masternodes separados para embaralhar fundos até 10000 XdCash</translation>
-    </message>
-    <message>
-        <source>Use 16 separate masternodes</source>
-        <translation>Use 16 masternodes separados</translation>
-    </message>
-    <message>
-        <source>This option is the quickest and will cost about ~0.025 XdCash to anonymize 10000 XdCash</source>
-        <translation>Está opção é a mais rápida e vai custar em torno de ~0.025 XdCash para anonimizar 10000 XdCash</translation>
-    </message>
-    <message>
-        <source>This option is moderately fast and will cost about 0.05 XdCash to anonymize 10000 XdCash</source>
-        <translation>Está opção moderamente rápida e vai custar em torno de ~0.05 XdCash para anonimizar 10000 XdCash</translation>
-    </message>
-    <message>
-        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Esta é a opção mais lenta e mais segura. Usando a anonimização máxima vai custar</translation>
-    </message>
-    <message>
-        <source>0.1 XdCash per 10000 XdCash you anonymize.</source>
-        <translation>0.1 XdCash por 10000 XdCash que deixar anônima.</translation>
-    </message>
-    <message>
-        <source>Obfuscation Configuration</source>
-        <translation>Configuração de ofuscação</translation>
-    </message>
-    <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening XdCash's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela XdCash's.</translation>
-    </message>
-    <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening XdCash's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela XdCash's.</translation>
-    </message>
-    <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening XdCash's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela XdCash's.</translation>
-    </message>
-</context>
-<context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
@@ -1542,16 +1471,16 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the XdCash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente XdCash no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the XDCASH client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente XDCASH no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>Aceitar conexões de fora</translation>
+        <translation>Aceitar cxdcashões de fora</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>Aceitar conexões chegando</translation>
+        <translation>Aceitar cxdcashões chegando</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1562,12 +1491,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start XdCash after logging in to the system.</source>
-        <translation>Iniciar automaticamente XdCash depois de logar no sistema.</translation>
+        <source>Automatically start XDCASH after logging in to the system.</source>
+        <translation>Iniciar automaticamente XDCASH depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start XdCash on system login</source>
-        <translation>&amp;Iniciar XdCash ao logar no sistema</translation>
+        <source>&amp;Start XDCASH on system login</source>
+        <translation>&amp;Iniciar XDCASH ao logar no sistema</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1582,18 +1511,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting XdCash.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do XdCash.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting XDCASH.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do XDCASH.</translation>
     </message>
     <message>
-        <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/xdcash-project/xdcash-project-translations</source>
-        <translation>Linguagem não encontrada ou tradução incompleta? Ajude contribuido com traduções aqui:
-https://www.transifex.com/xdcash-project/xdcash-project-translations</translation>
-    </message>
-    <message>
-        <source>Connect to the XdCash network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede XdCash através de um proxy SOCKS5</translation>
+        <source>Connect to the XDCASH network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede XDCASH através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1634,10 +1557,6 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
     <message>
         <source>User Interface &amp;language:</source>
         <translation>Interface do usuário &amp;Linguagem:</translation>
-    </message>
-    <message>
-        <source>User Interface Theme:</source>
-        <translation>Usar tema de inferface:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1727,8 +1646,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Imaturo:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the XdCash network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede XdCash após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the XDCASH network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede XDCASH após estabelecer uma cxdcashão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1814,117 +1733,14 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
     </message>
 </context>
 <context>
-    <name>PrivacyDialog</name>
-    <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the XdCash network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede XdCash após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    <message>
-        <source>Reset</source>
-        <translation>Reinicia</translation>
-    </message>
-    <message>
-        <source>Quantity:</source>
-        <translation>Quantidade:</translation>
-    </message>
-    <message>
-        <source>Amount:</source>
-        <translation>Quantia:</translation>
-    </message>
-    <message>
-        <source>Pay &amp;To:</source>
-        <translation>Pagar &amp;Para:</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Escolha o endereço previamente utilizado</translation>
-    </message>
-    <message>
-        <source>Alt+A</source>
-        <translation>Alt+A</translation>
-    </message>
-    <message>
-        <source>Paste address from clipboard</source>
-        <translation>Cole o endereço da área de transferência</translation>
-    </message>
-    <message>
-        <source>Alt+P</source>
-        <translation>Alt+P</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>&amp;Rótulo:</translation>
-    </message>
-    <message>
-        <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Coloque uma etiqueta neste endereço para adicioná-lo à lista de endereços utilizados</translation>
-    </message>
-    <message>
-        <source>A&amp;mount:</source>
-        <translation>Quantia:</translation>
-    </message>
-    <message>
-        <source>Priority:</source>
-        <translation>Prioridade:</translation>
-    </message>
-    <message>
-        <source>Fee:</source>
-        <translation>Taxa:</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>não</translation>
-    </message>
-    <message>
-        <source>Bytes:</source>
-        <translation>Bytes:</translation>
-    </message>
-    <message>
-        <source>Insufficient funds!</source>
-        <translation>Fundos insuficientes!</translation>
-    </message>
-    <message>
-        <source>medium</source>
-        <translation>médio</translation>
-    </message>
-    <message>
-        <source>Coin Control Features</source>
-        <translation>Funções do Controle de Moedas</translation>
-    </message>
-    <message>
-        <source>Change:</source>
-        <translation>Troco:</translation>
-    </message>
-    <message>
-        <source>out of sync</source>
-        <translation>fora de sincronia</translation>
-    </message>
-    <message>
-        <source>Copy quantity</source>
-        <translation>Copiar quantidade</translation>
-    </message>
-    <message>
-        <source>Copy amount</source>
-        <translation>Copiar quantia</translation>
-    </message>
-    <message>
-        <source>Confirm send coins</source>
-        <translation>Confirmar envio de moedas</translation>
-    </message>
-    </context>
-<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a XdCash address (e.g. %1)</source>
-        <translation>Insira um endereço XdCash (e.g. %1)</translation>
+        <source>Enter a XDCASH address (e.g. %1)</source>
+        <translation>Insira um endereço XDCASH (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2006,7 +1822,7 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Número de conexões</translation>
+        <translation>Número de cxdcashões</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -2110,7 +1926,7 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>Tempo de conexão</translation>
+        <translation>Tempo de cxdcashão</translation>
     </message>
     <message>
         <source>Last Send</source>
@@ -2173,8 +1989,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the XdCash RPC console.</source>
-        <translation>Bem-vindo ao console da XdCash RPC</translation>
+        <source>Welcome to the XDCASH RPC console.</source>
+        <translation>Bem-vindo ao console da XDCASH RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2425,8 +2241,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Tamanho UTXO:</translation>
     </message>
     <message>
-        <source>0 XdCash</source>
-        <translation>0 XdCash</translation>
+        <source>0 XDCASH</source>
+        <translation>0 XDCASH</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -2465,12 +2281,12 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Tempo de confirmação:</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uXdCashs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXdCashs in fee,&lt;br /&gt;while "at least" pays 1000 uXdCashs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Se a taxa padrão estiver definida para 1000 uXdCashs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uXdCashs em taxa,&lt;br /&gt; pagará pelo menos 1000 uXdCashs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
+        <source>If the custom fee is set to 1000 uXDCASHs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uXDCASHs in fee,&lt;br /&gt;while "at least" pays 1000 uXDCASHs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <translation>Se a taxa padrão estiver definida para 1000 uXDCASHs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uXDCASHs em taxa,&lt;br /&gt; pagará pelo menos 1000 uXDCASHs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for XdCash transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de XdCash do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for XDCASH transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de XDCASH do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2553,12 +2369,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>usando</translation>
     </message>
     <message>
-        <source>anonymous funds</source>
-        <translation>fundos anônimos</translation>
-    </message>
-    <message>
-        <source>Warning: Invalid XdCash address</source>
-        <translation>Aviso: endereço XdCash inválido</translation>
+        <source>Warning: Invalid XDCASH address</source>
+        <translation>Aviso: endereço XDCASH inválido</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2625,10 +2437,6 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Criação da transação falhou!</translation>
     </message>
     <message>
-        <source>Error: The wallet was unlocked only to anonymize coins.</source>
-        <translation>Erro: A carteira foi destravada apenas para anonimizar moedas.</translation>
-    </message>
-    <message>
         <source>Pay only the minimum fee of %1</source>
         <translation>Pague somente a taxa mínima de %1</translation>
     </message>
@@ -2652,8 +2460,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The XdCash address to send the payment to</source>
-        <translation>O endereço XdCash para enviar o pagamento</translation>
+        <source>The XDCASH address to send the payment to</source>
+        <translation>O endereço XDCASH para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2715,8 +2523,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>XdCash Core is shutting down...</source>
-        <translation>XdCash Core está desligando...</translation>
+        <source>XDCASH Core is shutting down...</source>
+        <translation>XDCASH Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2734,8 +2542,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The XdCash address to sign the message with</source>
-        <translation>O endereço XdCash para assinar a mensagem</translation>
+        <source>The XDCASH address to sign the message with</source>
+        <translation>O endereço XDCASH para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2766,16 +2574,16 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this XdCash address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço XdCash</translation>
+        <source>Sign the message to prove you own this XDCASH address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço XDCASH</translation>
     </message>
     <message>
-        <source>The XdCash address the message was signed with</source>
-        <translation>O endereço XdCash que assinou a mensagem</translation>
+        <source>The XDCASH address the message was signed with</source>
+        <translation>O endereço XDCASH que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified XdCash address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço XdCash especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified XDCASH address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço XDCASH especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2857,8 +2665,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>XdCash Core</source>
-        <translation>XdCash Core</translation>
+        <source>XDCASH Core</source>
+        <translation>XDCASH Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2873,8 +2681,12 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The XdCash Core developers</source>
-        <translation>Os desenvolvedores do XdCash Core</translation>
+        <source>The PIVX Core developers</source>
+        <translation>Os desenvolvedores do PIVX Core</translation>
+    </message>
+    <message>
+        <source>The XDCASH Core developers</source>
+        <translation>Os desenvolvedores do XDCASH Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3121,10 +2933,6 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Recebido de</translation>
     </message>
     <message>
-        <source>Received via Obfuscation</source>
-        <translation>Recebido com Ofuscação</translation>
-    </message>
-    <message>
         <source>Sent to</source>
         <translation>Enviado para</translation>
     </message>
@@ -3139,10 +2947,6 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
     <message>
         <source>Mined</source>
         <translation>Minerado</translation>
-    </message>
-    <message>
-        <source>Obfuscated</source>
-        <translation>Ofuscado</translation>
     </message>
     <message>
         <source>watch-only</source>
@@ -3218,10 +3022,6 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
     <message>
         <source>Sent to</source>
         <translation>Enviado para</translation>
-    </message>
-    <message>
-        <source>Obfuscated</source>
-        <translation>Ofuscado</translation>
     </message>
     <message>
         <source>To yourself</source>
@@ -3357,8 +3157,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Enviar Moedas</translation>
     </message>
     <message>
-        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 XdCash.</source>
-        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 XdCash.</translation>
+        <source>SwiftTX doesn't support sending values that high yet. Transactions are currently limited to %1 XDCASH.</source>
+        <translation>SwiftTX ainda não suporta o envio de valores altos assim. As transações atualmente são limitadas a %1 XDCASH.</translation>
     </message>
 </context>
 <context>
@@ -3401,21 +3201,14 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
     </message>
 </context>
 <context>
-    <name>ZPhrControlDialog</name>
-    <message>
-        <source>0</source>
-        <translation>0</translation>
-    </message>
-    </context>
-<context>
     <name>xdcash-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
     </message>
     <message>
-        <source>Disable all XdCash specific functionality (Masternodes, Obfuscation, SwiftTX, Budgeting) (0-1, default: %u)</source>
-        <translation>Desabilitar todas as funcionalidades específicas XdCash (Masternodes, Ofuscação, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
+        <source>Disable all XDCASH specific functionality (Masternodes, SwiftTX, Budgeting) (0-1, default: %u)</source>
+        <translation>Desabilitar todas as funcionalidades específicas XDCASH (Masternodes, SwiftTX, Budgeting) (0-1, padrão: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
@@ -3430,12 +3223,12 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Executar o comando quando uma transação da carteira mudar (%s no cmd será substituído pela TxID)</translation>
     </message>
     <message>
-        <source>Fees (in XdCash/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Taxas (em XdCash/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
+        <source>Fees (in XDCASH/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <translation>Taxas (em XDCASH/Kb) menores que isso serão consideradas taxa zero para propagação (padrão: %s)</translation>
     </message>
     <message>
-        <source>Fees (in XdCash/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Taxas (em XdCash/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
+        <source>Fees (in XDCASH/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <translation>Taxas (em XDCASH/Kb) menores que isso serão consideradas taxa zero para a criação da transação (padrão: %s)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
@@ -3458,8 +3251,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>SwiftTX requer inputs com pelo menos 6 confirmações, você precisar aguardar alguns minutos e tentar novamente.</translation>
     </message>
     <message>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 XdCash.</source>
-        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 XdCash.</translation>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 XDCASH.</source>
+        <translation>Incapaz de localizar fundos para esta transação que não são iguais a 10000 XDCASH.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -3474,8 +3267,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong XdCash Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core XdCash não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong XDCASH Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core XDCASH não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3490,8 +3283,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Você deve especificar uma masternodeprivkey na configuração. Favor verificar o manual para obter ajuda.</translation>
     </message>
     <message>
-        <source>(5730 could be used only on mainnet)</source>
-        <translation>(5730 could be used only on mainnet)</translation>
+        <source>(30229 could be used only on mainnet)</source>
+        <translation>(30229 could be used only on mainnet)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
@@ -3502,16 +3295,16 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>(padrão: 1)</translation>
     </message>
     <message>
-        <source>(must be 5730 for mainnet)</source>
-        <translation>(deve ser 5730 para mainnet)</translation>
+        <source>(must be 30229 for mainnet)</source>
+        <translation>(deve ser 30229 para mainnet)</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Aceitar conexões do exterior (padrão: 1 se não -proxy ou -connect)</translation>
+        <translation>Aceitar cxdcashões do exterior (padrão: 1 se não -proxy ou -connect)</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Adicionar um nó para conectar e tentar manter uma conexão aberta</translation>
+        <translation>Adicionar um nó para conectar e tentar manter uma cxdcashão aberta</translation>
     </message>
     <message>
         <source>Already have that input.</source>
@@ -3524,10 +3317,6 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
     <message>
         <source>Can't find random Masternode.</source>
         <translation>Não conseguiu encontrar um Masternode aleatório.</translation>
-    </message>
-    <message>
-        <source>Can't mix while sync in progress.</source>
-        <translation>Não é possível embaralhar enquanto a sincronia estiver em progresso.</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
@@ -3543,7 +3332,7 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Opções de conexão:</translation>
+        <translation>Opções de cxdcashão:</translation>
     </message>
     <message>
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
@@ -3554,8 +3343,12 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The XdCash Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do XdCash Core</translation>
+        <source>Copyright (C) 2015-%i The PIVX Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do PIVX Core</translation>
+    </message>
+    <message>
+        <source>Copyright (C) 2017-%i The XDCASH Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2017-%i aos Desenvolvedores do XDCASH Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3606,8 +3399,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of XdCash Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da XdCash Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of XDCASH Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da XDCASH Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -3638,16 +3431,12 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>erro: Carteira travada, não foi possível criar a transação!</translation>
     </message>
     <message>
-        <source>Error: You already have pending entries in the Obfuscation pool</source>
-        <translation>Erro: Você já possui entradas pendentes na pool de Ofuscação</translation>
-    </message>
-    <message>
         <source>Failed to read block</source>
         <translation>Falhou em ler o bloco</translation>
     </message>
     <message>
-        <source>Fee (in XdCash/kB) to add to transactions you send (default: %s)</source>
-        <translation>Taxa (em XdCash/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
+        <source>Fee (in XDCASH/kB) to add to transactions you send (default: %s)</source>
+        <translation>Taxa (em XDCASH/kB) a adicionar em transações que você enviar (padrão: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
@@ -3702,6 +3491,14 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Fundos insuficientes.</translation>
     </message>
     <message>
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Inválido -onion endereço: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Inválido -proxy endereço: '%s'</translation>
+    </message>
+    <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
         <translation>Quantia inválida para -maxtxfee=&lt;amount&gt;: '%s'</translation>
     </message>
@@ -3746,14 +3543,6 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Script inválido detectado.</translation>
     </message>
     <message>
-        <source>Last Obfuscation was too recent.</source>
-        <translation>Última ofuscação foi muito recente.</translation>
-    </message>
-    <message>
-        <source>Last successful Obfuscation action was too recent.</source>
-        <translation>Última ação de ofuscação com sucesso foi muito recente.</translation>
-    </message>
-    <message>
         <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
         <translation>Limitar o tamanho do cachê de assinatora a &lt;n&gt; entradas (padrão: %u)</translation>
     </message>
@@ -3791,7 +3580,7 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Manter pelo menos &lt;n&gt; conexões aos pares (padrão: %u)</translation>
+        <translation>Manter pelo menos &lt;n&gt; cxdcashões aos pares (padrão: %u)</translation>
     </message>
     <message>
         <source>Masternode options:</source>
@@ -3804,10 +3593,6 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
     <message>
         <source>Masternode:</source>
         <translation>Masternode:</translation>
-    </message>
-    <message>
-        <source>Mixing in progress...</source>
-        <translation>Embaralhamento em progresso.</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
@@ -3842,18 +3627,6 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Número de backups automáticos da carteira (padrão: 10)</translation>
     </message>
     <message>
-        <source>Obfuscation is idle.</source>
-        <translation>Ofuscação está ociosa.</translation>
-    </message>
-    <message>
-        <source>Obfuscation request complete:</source>
-        <translation>Requisição de ofuscação completa:</translation>
-    </message>
-    <message>
-        <source>Obfuscation request incomplete:</source>
-        <translation>Requisição de ofuscação incompleta:</translation>
-    </message>
-    <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
         <translation>Somente conecte a nós da rede &lt;net&gt; (Ipv4, ipv6 ou onion)</translation>
     </message>
@@ -3863,7 +3636,7 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Senha para conexões JSON-RPC</translation>
+        <translation>Senha para cxdcashões JSON-RPC</translation>
     </message>
     <message>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
@@ -3935,7 +3708,7 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Especifique em milisegundos o tempo para uma conexão expirar (mínimo: 1, padrão: %d)</translation>
+        <translation>Especifique em milisegundos o tempo para uma cxdcashão expirar (mínimo: 1, padrão: %d)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -3998,7 +3771,7 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Esta mensagem de ajuda</translation>
     </message>
     <message>
-        <source>This is experimental software.</source>
+        <source> </source>
         <translation>Este software é experimental.</translation>
     </message>
     <message>
@@ -4051,7 +3824,7 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
     </message>
     <message>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Usar OpenSSL (https) para conexões JSON-RPC</translation>
+        <translation>Usar OpenSSL (https) para cxdcashões JSON-RPC</translation>
     </message>
     <message>
         <source>Use the test network</source>
@@ -4059,11 +3832,7 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Nome de usuário para conexões JSON-RPC</translation>
-    </message>
-    <message>
-        <source>Value more than Obfuscation pool maximum allows.</source>
-        <translation>Valor maior que o máximo permitido pela pool de Ofuscação </translation>
+        <translation>Nome de usuário para cxdcashões JSON-RPC</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -4078,8 +3847,8 @@ https://www.transifex.com/xdcash-project/xdcash-project-translations</translatio
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart XdCash Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o XdCash Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart XDCASH Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o XDCASH Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>
