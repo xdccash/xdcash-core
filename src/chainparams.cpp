@@ -104,10 +104,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x5B;
-        pchMessageStart[1] = 0x3D;
-        pchMessageStart[2] = 0x1F;
-        pchMessageStart[3] = 0x4B;
+        pchMessageStart[0] = 0x7a;
+        pchMessageStart[1] = 0x58;
+        pchMessageStart[2] = 0x44;
+        pchMessageStart[3] = 0x43;
         vAlertPubKey = ParseHex("0409c5cc66481422f29663e04e11e79e2faa1bcea4d808cd36280a3a4d1644548b91e3086bcb5158aacd24eacba15cf9ce570f2a2c67a40554e7293d6df2d9fb53");
         nDefaultPort = 58120;
         bnProofOfWorkLimit = ~uint256(0) >> 20; // XdCash starting difficulty is 1 / 2^12
@@ -122,7 +122,7 @@ public:
         nMaturity = 30;
         nMasternodeCountDrift = 20;
         nMasternodeCollateralLimit = 1000; //MN collateral
-        nMaxMoneyOut = 5000000 * COIN; 
+        nMaxMoneyOut = 4500000 * COIN; 
         nMinStakeReserve = 1;
         /** Height or Time Based Activations **/
         nLastPOWBlock = 200; 
@@ -167,10 +167,11 @@ public:
         assert(genesis.hashMerkleRoot == uint256("b7004a8d313eb1e60f48f8cc4e6393bfcc99ee25ee8a5f9b2cd136232335d68d")); 
 
 		//added new nodes from command
-        vSeeds.push_back(CDNSSeedData("seed16.xdc.cash", "seed26.xdc.cash"));
-        vSeeds.push_back(CDNSSeedData("seed36.xdc.cash", "seed46.xdc.cash"));
-        vSeeds.push_back(CDNSSeedData("157.230.41.236", "157.230.40.228"));
-		vSeeds.push_back(CDNSSeedData("165.22.102.185","178.128.217.141"));
+        vSeeds.push_back(CDNSSeedData("seed-a.xdc.cash", "seed-a.xdc.cash"));
+        vSeeds.push_back(CDNSSeedData("seed-a.xdc.cash", "seed-b.xdc.cash"));
+        vSeeds.push_back(CDNSSeedData("seed-a.xdc.cash", "seed-c.xdc.cash"));
+        vSeeds.push_back(CDNSSeedData("seed-a.xdc.cash", "seed-d.xdc.cash"));
+        vSeeds.push_back(CDNSSeedData("seed-a.xdc.cash", "seed-e.xdc.cash"));
 
 		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 76);
 		base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 138);
