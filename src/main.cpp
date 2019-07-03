@@ -60,7 +60,7 @@ using namespace libzerocoin;
  */
 
 CCriticalSection cs_main;
-
+CCriticalSection cs_mapstake;
 BlockMap mapBlockIndex;
 map<uint256, uint256> mapProofOfStake;
 set<pair<COutPoint, unsigned int> > setStakeSeen;
@@ -1542,8 +1542,9 @@ bool AcceptToMemoryPool(CTxMemPool& pool, CValidationState& state, const CTransa
 
     // Coinbase is only valid in a block, not as a loose transaction
     if (tx.IsCoinBase())
-        return state.DoS(100, error("AcceptToMemoryPool: : coinbase as individual tx"),
-            REJECT_INVALID, "coinbase");
+    //    return state.DoS(100, error("AcceptToMemoryPool: : coinbase as individual tx"),
+    //        REJECT_INVALID, "coinbase");
+	return state.DoS(100, error("AcceptToMemoryPool: coinstake as individual tx. txid=%s", tx.GetHash().GetHex()),  REJECT_INVALID, "coinstake");		
 
     //Coinstake is also only valid in a block, not as a loose transaction
     if (tx.IsCoinStake())
@@ -2101,72 +2102,58 @@ int64_t GetBlockValue(int nHeight)
         if (nHeight < 200 && nHeight > 0)
             return 10000 * COIN;
     }
-
-    if (nHeight == 0) {
-         nSubsidy = 500000 * COIN;
+    
+	if (nHeight == 0) {
+        nSubsidy = 500000 * COIN;
     } else if (nHeight <= 200 && nHeight > 0) {
-         nSubsidy = 0 * COIN;
-    } else if (nHeight <= 10000 && nHeight > 200) {
-         nSubsidy = 0.2 * COIN;
-    } else if (nHeight <= 20000 && nHeight > 10000) {
-         nSubsidy = 0.6 * COIN;
+        nSubsidy = 0 * COIN;
+    } else if (nHeight <= 20000 && nHeight > 200) {
+        nSubsidy = 0.5 * COIN;
     } else if (nHeight <= 40000 && nHeight > 20000) {
-         nSubsidy = 0.9 * COIN;
-    } else if (nHeight <= 60000 && nHeight > 40000) {
-         nSubsidy = 1.3 * COIN;
-    } else if (nHeight <= 80000 && nHeight > 60000) {
-         nSubsidy = 1.4 * COIN;
-    } else if (nHeight <= 100000 && nHeight > 80000) {
-         nSubsidy = 1.6 * COIN;
-    } else if (nHeight <= 140000 && nHeight > 100000) {
-         nSubsidy = 1.9 * COIN;
-    } else if (nHeight <= 180000 && nHeight > 140000) {
-         nSubsidy = 2.2 * COIN;
-    } else if (nHeight <= 220000 && nHeight > 180000) {
-         nSubsidy = 2.4 * COIN;
-    } else if (nHeight <= 260000 && nHeight > 220000) {
-         nSubsidy = 2.6 * COIN;
-    } else if (nHeight <= 300000 && nHeight > 260000) {
-         nSubsidy = 2.8 * COIN;
-    } else if (nHeight <= 340000 && nHeight > 300000) {
-         nSubsidy = 3 * COIN;
-    } else if (nHeight <= 380000 && nHeight > 340000) {
-         nSubsidy = 3.25 * COIN;
-    } else if (nHeight <= 420000 && nHeight > 380000) {
-         nSubsidy = 3.5 * COIN;
-    } else if (nHeight <= 460000 && nHeight > 420000) {
-         nSubsidy = 3.75 * COIN;
-    } else if (nHeight <= 500000 && nHeight > 460000) {
-         nSubsidy = 4 * COIN;
-    } else if (nHeight <= 600000 && nHeight > 500000) {
-         nSubsidy = 4.6 * COIN;
-    } else if (nHeight <= 700000 && nHeight > 600000) {
-         nSubsidy = 5.25 * COIN;
-    } else if (nHeight <= 800000 && nHeight > 700000) {
-         nSubsidy = 5.6 * COIN;
-    } else if (nHeight <= 900000 && nHeight > 800000) {
-         nSubsidy = 6.25 * COIN;
-    } else if (nHeight <= 1000000 && nHeight > 900000) {
-         nSubsidy = 6.9 * COIN;
-    } else if (nHeight <= 1200000 && nHeight > 1000000) {
-         nSubsidy = 5 * COIN;
-    } else if (nHeight <= 1400000 && nHeight > 1200000) {
-         nSubsidy = 3.75 * COIN;
-    } else if (nHeight <= 1600000 && nHeight > 1400000) {
-         nSubsidy = 2.5 * COIN;
-    } else if (nHeight <= 2000000 && nHeight > 1600000) {
-         nSubsidy = 2.25 * COIN;
-    } else if (nHeight <= 2400000 && nHeight > 2000000) {
-         nSubsidy = 2 * COIN;
-    } else if (nHeight <= 2800000 && nHeight > 2400000) {
-         nSubsidy = 1.75 * COIN;
-    } else if (nHeight <= 3200000 && nHeight > 2800000) {
-         nSubsidy = 1.5 * COIN;
-    } else if (nHeight <= 3600000 && nHeight > 3200000) {
-         nSubsidy = 1.25 * COIN;
-    } else if (nHeight > 3600000) {
-         nSubsidy = 0.63 * COIN;
-    }
+        nSubsidy = 0.75 * COIN;
+	} else if (nHeight <= 60000 && nHeight > 40000) {
+        nSubsidy = 1.0 * COIN;
+	} else if (nHeight <= 80000 && nHeight > 60000) {
+        nSubsidy = 1.25 * COIN;
+	} else if (nHeight <= 100000 && nHeight > 80000) {
+        nSubsidy = 1.5 * COIN;
+	} else if (nHeight <= 120000 && nHeight > 100000) {
+        nSubsidy = 2.0 * COIN;
+	} else if (nHeight <= 140000 && nHeight > 120000) {
+        nSubsidy = 2.5 * COIN;
+	} else if (nHeight <= 160000 && nHeight > 140000) {
+        nSubsidy = 3.0 * COIN;
+	} else if (nHeight <= 180000 && nHeight > 160000) {
+        nSubsidy = 3.5 * COIN;
+	} else if (nHeight <= 200000 && nHeight > 180000) {
+        nSubsidy = 4.0 * COIN;
+	} else if (nHeight <= 220000 && nHeight > 200000) {
+        nSubsidy = 4.5 * COIN;
+	} else if (nHeight <= 240000 && nHeight > 220000) {
+        nSubsidy = 5.0 * COIN;
+	} else if (nHeight <= 260000 && nHeight > 240000) {
+        nSubsidy = 5.5 * COIN;
+	} else if (nHeight <= 280000 && nHeight > 260000) {
+        nSubsidy = 6.0 * COIN;
+	} else if (nHeight <= 300000 && nHeight > 280000) {
+        nSubsidy = 5.5 * COIN;
+	} else if (nHeight <= 320000 && nHeight > 300000) {
+        nSubsidy = 5.0 * COIN;
+	} else if (nHeight <= 340000 && nHeight > 320000) {
+        nSubsidy = 4.5 * COIN;
+	} else if (nHeight <= 360000 && nHeight > 340000) {
+        nSubsidy = 4.0 * COIN;
+	} else if (nHeight <= 380000 && nHeight > 360000) {
+        nSubsidy = 3.5 * COIN;
+	} else if (nHeight <= 400000 && nHeight > 380000) {
+        nSubsidy = 3.0 * COIN;
+	} else if (nHeight <= 420000 && nHeight > 400000) {
+        nSubsidy = 2 * COIN;
+	} else if (nHeight > 420000) {
+		nSubsidy = 1 * COIN;
+    } else {
+        nSubsidy = 0 * COIN;
+	}
 	
 	int64_t nMoneySupply = chainActive.Tip()->nMoneySupply;
 
@@ -2189,9 +2176,9 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
     }
 	
 	// initial blocks have no mn reward
-	if (nHeight <= 2000) {
+	if (nHeight <= 200) {
 	      ret = blockValue  / 100 * 0;
-	} else if (nHeight > 2000) {
+	} else if (nHeight > 200) {
 		  ret = blockValue  / 100 * 80; //80%
 		
 	}
@@ -2572,6 +2559,9 @@ bool DisconnectBlock(CBlock& block, CValidationState& state, CBlockIndex* pindex
                 if (coins->vout.size() < out.n + 1)
                     coins->vout.resize(out.n + 1);
                 coins->vout[out.n] = undo.txout;
+					LOCK(cs_mapstake);
+                    // erase the spent input
+                    mapStakeSpent.erase(out);
             }
         }
     }
@@ -3051,6 +3041,28 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
     if (fTxIndex)
         if (!pblocktree->WriteTxIndex(vPos))
             return state.Abort("Failed to write transaction index");
+		
+  {
+        LOCK(cs_mapstake);
+
+        // add new entries
+        for (const CTransaction tx: block.vtx) {
+            if (tx.IsCoinBase())
+                continue;
+            for (const CTxIn in: tx.vin) {
+                mapStakeSpent.insert(std::make_pair(in.prevout, pindex->nHeight));
+            }
+    }
+
+  // delete old entries
+        for (auto it = mapStakeSpent.begin(); it != mapStakeSpent.end();) {
+            if (it->second < pindex->nHeight - Params().MaxReorganizationDepth()) {
+                it = mapStakeSpent.erase(it);
+            } else {
+                it++;
+            }
+        }
+    }
 
     // add this block to the view's block chain
     view.SetBestBlock(pindex->GetBlockHash());
@@ -4223,7 +4235,62 @@ bool AcceptBlock(CBlock& block, CValidationState& state, CBlockIndex** ppindex, 
     }
 
     int nHeight = pindex->nHeight;
+	
+    if (block.IsProofOfStake()) {
+        LOCK(cs_main);
 
+        CCoinsViewCache coins(pcoinsTip);
+
+        if (!coins.HaveInputs(block.vtx[1])) {
+
+	   LOCK(cs_mapstake);
+
+            // the inputs are spent at the chain tip so we should look at the recently spent outputs
+            for (CTxIn in : block.vtx[1].vin) {
+                auto it = mapStakeSpent.find(in.prevout);
+                if (it == mapStakeSpent.end()) {
+                    return false;
+                }
+                if (it->second < pindexPrev->nHeight) {
+                    return false;
+                }
+            }
+        }
+
+        // if this is on a fork
+        if (pindexPrev != NULL && !chainActive.Contains(pindexPrev)) {
+
+            // start at the block we're adding on to
+            CBlockIndex *last = pindexPrev;
+
+            // while that block is not on the main chain
+            while (last != NULL && !chainActive.Contains(last)) {
+                CBlock bl;
+                ReadBlockFromDisk(bl, last);
+
+                // loop through every spent input from said block
+                for (CTransaction t : bl.vtx) {
+                    for (CTxIn in: t.vin) {
+
+                        // loop through every spent input in the staking transaction of the new block
+                        for (CTxIn stakeIn : block.vtx[1].vin) {
+
+                            // if they spend the same input
+                            if (stakeIn.prevout == in.prevout) {
+
+                                // reject the block
+                                return false;
+                            }
+                        }
+                    }
+                }
+
+                // go to the parent block
+                last = last->pprev;
+            }
+        }
+    }
+	
     // Write block to history file
     try {
         unsigned int nBlockSize = ::GetSerializeSize(block, SER_DISK, CLIENT_VERSION);
