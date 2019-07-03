@@ -64,6 +64,7 @@ CCriticalSection cs_mapstake;
 BlockMap mapBlockIndex;
 map<uint256, uint256> mapProofOfStake;
 set<pair<COutPoint, unsigned int> > setStakeSeen;
+map<COutPoint, int> mapStakeSpent;
 map<unsigned int, unsigned int> mapHashedBlocks;
 CChain chainActive;
 CBlockIndex* pindexBestHeader = NULL;
